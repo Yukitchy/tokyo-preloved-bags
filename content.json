@@ -1,398 +1,415 @@
 {
- "title": "Pre-owned Louis Vuitton & a little rest: a Tokyo guide for Karina",
- "updated": "2026-10-09",
- "from": "Yuuki",
- "intro": "Hi Karina! You asked where to find pre-owned luxury bags in Tokyo. Since you are staying in Shinjuku, I start there. Then I add two more areas that are easy by train. I know you are mostly after Louis Vuitton, so I note which shops show it on their own sites. And because the moms may want a rest, there are a few good places to relax too.",
- "areas": [
-  {
-   "id": "shinjuku",
-   "name": "Shinjuku",
-   "num": "01",
-   "color": "#8a2f2b",
-   "from_shinjuku": "You are here. Everything below is a short walk.",
-   "why": "Your home base is also the easiest place to start. Several pre-owned shops sit within a few blocks of each other, and the rest options are close too.",
-   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Intersection_in_Kabukich%C5%8D%2C_Shinjuku%2C_Tokyo_dllu.jpg/960px-Intersection_in_Kabukich%C5%8D%2C_Shinjuku%2C_Tokyo_dllu.jpg",
-    "caption": "A busy crossing on the east side of Shinjuku.",
-    "author": "Daniel L. Lu (dllu)",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Intersection_in_Kabukich%C5%8D,_Shinjuku,_Tokyo_dllu.jpg",
-    "key": "shinjuku"
-   },
-   "plan": "Half day: start at KOMEHYO around 11:00, walk to Brand Off and Daikokuya, then take a break at Re.Ra.Ku or Thermae-Yu before you decide what to buy.",
-   "places": [
+  "title": "Pre-owned Louis Vuitton & a little rest: a Tokyo guide for Karina",
+  "updated": "2026-10-09",
+  "from": "Yuuki",
+  "intro": "Hi Karina! You asked where to find pre-owned luxury bags in Tokyo. Since you are staying in Shinjuku, I start there. Then I add two more areas that are easy by train. I know you are mostly after Louis Vuitton, so I note which shops show it on their own sites. And because the moms may want a rest, there are a few good places to relax too.",
+  "areas": [
     {
-     "name": "KOMEHYO Shinjuku",
-     "type": "shop",
-     "lv": true,
-     "text": "A large Japanese pre-owned chain. Its official site lists Louis Vuitton as a main brand. The store has four floors (1F-4F).",
-     "address": "3-19-4 Shinjuku, Shinjuku-ku (MLJ Building)",
-     "map": "https://www.google.com/maps/search/?api=1&query=KOMEHYO+SHINJUKU+3-19-4+Shinjuku+Tokyo",
-     "lat": 35.6911,
-     "lng": 139.7058,
-     "source": "https://komehyo.jp/kaitori/shop/komehyo-shinjuku-women-2",
-     "photo": {
-      "url": "https://a.mktgcdn.com/p/enf47k4cQWd6859tgB_o4e7kSBBslLjGy2GfcyQsV7k/1170x853.jpg",
-      "credit": "Photo: KOMEHYO",
-      "credit_url": "https://komehyo.jp/kaitori/shop/shinjuku",
-      "license": "official site"
-     }
+      "id": "shinjuku",
+      "name": "Shinjuku",
+      "num": "01",
+      "color": "#8a2f2b",
+      "from_shinjuku": "You are here. Everything below is a short walk.",
+      "why": "Your home base is also the easiest place to start. Several pre-owned shops sit within a few blocks of each other, and the rest options are close too.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Intersection_in_Kabukich%C5%8D%2C_Shinjuku%2C_Tokyo_dllu.jpg/960px-Intersection_in_Kabukich%C5%8D%2C_Shinjuku%2C_Tokyo_dllu.jpg",
+        "caption": "A busy crossing on the east side of Shinjuku.",
+        "author": "Daniel L. Lu (dllu)",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Intersection_in_Kabukich%C5%8D,_Shinjuku,_Tokyo_dllu.jpg",
+        "key": "shinjuku"
+      },
+      "plan": "Half day: start at KOMEHYO around 11:00, walk to Brand Off and Daikokuya, then take a break at Re.Ra.Ku or Thermae-Yu before you decide what to buy.",
+      "places": [
+        {
+          "name": "KOMEHYO Shinjuku",
+          "type": "shop",
+          "lv": true,
+          "text": "A large Japanese pre-owned chain. Its official site lists Louis Vuitton as a main brand. The store has four floors (1F-4F).",
+          "address": "3-19-4 Shinjuku, Shinjuku-ku (MLJ Building)",
+          "map": "https://www.google.com/maps/search/?api=1&query=KOMEHYO+SHINJUKU+3-19-4+Shinjuku+Tokyo",
+          "lat": 35.6911,
+          "lng": 139.7058,
+          "source": "https://komehyo.jp/kaitori/shop/komehyo-shinjuku-women-2",
+          "photo": {
+            "url": "https://a.mktgcdn.com/p/enf47k4cQWd6859tgB_o4e7kSBBslLjGy2GfcyQsV7k/1170x853.jpg",
+            "credit": "Photo: KOMEHYO",
+            "credit_url": "https://komehyo.jp/kaitori/shop/shinjuku",
+            "license": "official site"
+          }
+        },
+        {
+          "name": "KOMEHYO Shinjuku Women",
+          "type": "shop",
+          "lv": true,
+          "text": "The women's store next door, on B1F-4F. Good to check for handbags in the same visit.",
+          "address": "3-19-2 Shinjuku, Shinjuku-ku",
+          "map": "https://www.google.com/maps/search/?api=1&query=KOMEHYO+SHINJUKU+WOMEN+3-19-2+Shinjuku+Tokyo",
+          "lat": 35.6909,
+          "lng": 139.7061,
+          "source": "https://komehyo.jp/kaitori/shop/komehyo-shinjuku-women-2",
+          "photo": {
+            "url": "https://a.mktgcdn.com/p/1_k_aI6UhxjNGtlcifwSsb1bwN0jsUzJ6ym9F9aEa2U/2700x1801.jpg",
+            "credit": "Photo: KOMEHYO",
+            "credit_url": "https://komehyo.jp/kaitori/shop/komehyo-shinjuku-women-2",
+            "license": "official site"
+          }
+        },
+        {
+          "name": "BRAND OFF Shinjuku",
+          "type": "shop",
+          "lv": true,
+          "text": "Brand Off's Shinjuku shop sells in the store and lists order-in sales. The Brand Off online store shows Louis Vuitton bags.",
+          "address": "3-5-3 Shinjuku, Shinjuku-ku (1F-2F)",
+          "map": "https://www.google.com/maps/search/?api=1&query=BRAND+OFF+Shinjuku+3-5-3+Shinjuku+Tokyo",
+          "lat": 35.6912,
+          "lng": 139.703,
+          "source": "https://www.brandoff.co.jp/shop_list/shop.php?shop=012_shinjuku",
+          "photo": {
+            "url": "https://www.brandoff.co.jp/wordpress/wp-content/uploads/2025/08/brandoff-shop-shinjuku-outlook-right.jpg",
+            "credit": "Photo: BRAND OFF",
+            "credit_url": "https://www.brandoff.co.jp/shop_list/shop.php?shop=012_shinjuku",
+            "license": "official site"
+          }
+        },
+        {
+          "name": "Daikokuya Shinjuku Honten",
+          "type": "shop",
+          "lv": false,
+          "text": "The main Shinjuku store of Daikokuya, a Japanese brand-goods shop that sells and buys. Ask the staff what Louis Vuitton they have today.",
+          "address": "1-5-3 Kabukicho, Shinjuku-ku",
+          "map": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%BB%92%E5%B1%8B+%E6%96%B0%E5%AE%BF%E6%9C%AC%E5%BA%97+%E6%AD%8C%E8%88%9E%E4%BC%8E%E7%94%BA1-5-3",
+          "lat": 35.695,
+          "lng": 139.7027,
+          "source": "https://www.daikokuya78.com/shops.html",
+          "photo": {
+            "url": "https://www.daikokuya78.com/store/shinjuku.jpeg",
+            "credit": "Photo: Daikokuya",
+            "credit_url": "https://www.daikokuya78.com/shops.html",
+            "license": "official site"
+          }
+        },
+        {
+          "name": "Daikokuya Shinjuku Nibankan",
+          "type": "shop",
+          "lv": false,
+          "text": "A second Daikokuya store in Shinjuku 3-chome, near KOMEHYO.",
+          "address": "3-17-13 Shinjuku, Shinjuku-ku",
+          "map": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%BB%92%E5%B1%8B+%E6%96%B0%E5%AE%BF2%E7%95%AA%E9%A4%A8+%E6%96%B0%E5%AE%BF3-17-13",
+          "lat": 35.691,
+          "lng": 139.7055,
+          "source": "https://www.daikokuya78.com/shops.html",
+          "photo": {
+            "url": "https://www.daikokuya78.com/store/shin2.jpeg",
+            "credit": "Photo: Daikokuya",
+            "credit_url": "https://www.daikokuya78.com/shops.html",
+            "license": "official site"
+          }
+        },
+        {
+          "name": "Re.Ra.Ku Shinjuku",
+          "type": "rest",
+          "kind": "Quick: 30 minutes",
+          "text": "A relaxation salon with 30-minute body care courses. Good if you only have a short break between shops. It is 1 minute from Shinjuku-sanchome Station (exit C3).",
+          "address": "6F Onda Central Building, 3-3-3 Shinjuku",
+          "map": "https://www.google.com/maps/search/?api=1&query=Re.Ra.Ku+Shinjuku+3-3-3+Shinjuku+Tokyo",
+          "lat": 35.6908,
+          "lng": 139.704,
+          "source": "https://reraku.jp/studio/shinjuku/",
+          "photo": {
+            "url": "https://imagedelivery.net/NhEg4ltVTkaN7TCIuD8O5g/0931c483-b048-4348-6ca6-e3a58f9c1d00/middle",
+            "credit": "Photo: Re.Ra.Ku",
+            "credit_url": "https://reraku.jp/studio/shinjuku/",
+            "license": "official site"
+          }
+        },
+        {
+          "name": "Thermae-Yu Shinjuku",
+          "type": "rest",
+          "kind": "Hot spring",
+          "text": "A hot-spring bathhouse in Kabukicho that is open 24 hours, with stone-bed saunas. Bathing is nude and separated by gender, so it suits those who like onsen. Plan 2 hours or more.",
+          "address": "1-1-2 Kabukicho, Shinjuku-ku",
+          "map": "https://www.google.com/maps/search/?api=1&query=Thermae-yu+Shinjuku+1-1-2+Kabukicho+Tokyo",
+          "lat": 35.6959,
+          "lng": 139.7025,
+          "source": "https://thermae-yu.jp/",
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Thermae-yu_Shinjuku.jpg/960px-Thermae-yu_Shinjuku.jpg",
+            "credit": "Photo: 妖精書士 / Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Thermae-yu_Shinjuku.jpg",
+            "license": "CC0"
+          }
+        },
+        {
+          "name": "Mannenyu (Okubo)",
+          "type": "rest",
+          "kind": "Neighborhood bath near Koreatown",
+          "text": "A local sento (public bath) 5 minutes on foot from Shin-Okubo Station, the Korean town of Tokyo. Open 15:00-24:00 and closed on Saturdays. Pair it with a walk and snack in Shin-Okubo.",
+          "address": "1-15-17 Okubo, Shinjuku-ku",
+          "map": "https://www.google.com/maps/search/?api=1&query=%E4%B8%87%E5%B9%B4%E6%B9%AF+%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%A4%A7%E4%B9%85%E4%BF%9D1-15-17",
+          "lat": 35.7019,
+          "lng": 139.7013,
+          "source": "https://mannenyu.jp/",
+          "photo": {
+            "url": "https://mannenyu.jp/wp-content/uploads/2019/01/top-mannen-0119-min.jpg",
+            "credit": "Photo: Mannenyu",
+            "credit_url": "https://mannenyu.jp/",
+            "license": "official site"
+          }
+        },
+        {
+          "name": "Joule Spa & Wellness, Hyatt Regency Tokyo",
+          "type": "rest",
+          "kind": "Hotel spa treat",
+          "text": "A hotel spa that is open to non-guests as a day spa, 11:00-20:00 daily. It has eight treatment rooms, including double rooms with city views. Book ahead.",
+          "address": "2-7-2 Nishi-Shinjuku, Shinjuku-ku",
+          "map": "https://www.google.com/maps/search/?api=1&query=Hyatt+Regency+Tokyo+2-7-2+Nishi-Shinjuku",
+          "lat": 35.6925,
+          "lng": 139.6925,
+          "source": "https://hyattregencytokyo.com/en/joule/",
+          "photo": {
+            "url": "https://hyattregencytokyo.com/hyatt_wp/wp-content/uploads/2026/03/spa_top-scaled.jpg",
+            "credit": "Photo: Hyatt Regency Tokyo",
+            "credit_url": "https://hyattregencytokyo.com/en/joule/",
+            "license": "official site"
+          }
+        },
+        {
+          "name": "TOKYO SHINJUKU SPA.",
+          "type": "rest",
+          "kind": "Thai massage",
+          "text": "A relaxation salon in Nishi-Shinjuku that lists Thai massage, often combined with aroma massage and head spa. Open 9:00-24:00 (last reception 23:00). The entrance is a steep, narrow staircase to the 4th floor, so check it suits everyone.",
+          "address": "4F ENTERPRISE.1, 7-5-11 Nishi-Shinjuku, Shinjuku-ku",
+          "map": "https://www.google.com/maps/search/?api=1&query=TOKYO+SHINJUKU+SPA+7-5-11+Nishi-Shinjuku+Tokyo",
+          "lat": 35.6945,
+          "lng": 139.6955,
+          "source": "https://beauty.hotpepper.jp/kr/slnH000688806/",
+          "photo": {
+            "url": "https://imgbp.hotp.jp/CSP/IMG_SRC_K/76/69/C042057669/C042057669.jpg?impolicy=HPB_policy_default&w=600&h=450",
+            "credit": "Photo: Hot Pepper Beauty",
+            "credit_url": "https://beauty.hotpepper.jp/kr/slnH000688806/",
+            "license": "official site"
+          }
+        },
+        {
+          "name": "Kannam Beauty Shin-Okubo",
+          "type": "rest",
+          "kind": "Korean beauty spa",
+          "text": "A women-only Korean-style beauty salon in private rooms, with facial lift and peeling courses and mugwort steam (yomogi-mushi). It does not list body scrub (akasuri). Open 11:00-21:00 daily; booking is recommended.",
+          "address": "207 Contoir Shinjuku, 1-1-11 Okubo, Shinjuku-ku",
+          "map": "https://www.google.com/maps/search/?api=1&query=Kannam+Beauty+Shin-Okubo+1-1-11+Okubo+Tokyo",
+          "lat": 35.7005,
+          "lng": 139.708,
+          "source": "https://beauty.hotpepper.jp/kr/slnH000821487/"
+        }
+      ],
+      "model_route": {
+        "url": "https://www.google.com/maps/dir/?api=1&origin=Shinjuku+Station+Tokyo&destination=Thermae-Yu+Shinjuku%2C+Shinjuku+Tokyo&waypoints=BRAND+OFF+Shinjuku%2C+Shinjuku+Tokyo%7CDaikokuya+Shinjuku+Nibankan%2C+Shinjuku+Tokyo%7CKOMEHYO+Shinjuku%2C+Shinjuku+Tokyo%7CKOMEHYO+Shinjuku+Women%2C+Shinjuku+Tokyo%7CDaikokuya+Shinjuku+Honten%2C+Shinjuku+Tokyo&travelmode=walking",
+        "stops": [
+          "Shinjuku Station",
+          "BRAND OFF Shinjuku",
+          "Daikokuya Shinjuku Nibankan",
+          "KOMEHYO Shinjuku",
+          "KOMEHYO Shinjuku Women",
+          "Daikokuya Shinjuku Honten",
+          "Thermae-Yu Shinjuku"
+        ],
+        "note": "about 14 min walking between shops (plus a short walk from the station and on to the spa)",
+        "start": {
+          "name": "Shinjuku Station",
+          "lat": 35.6896,
+          "lng": 139.7006
+        }
+      }
     },
     {
-     "name": "KOMEHYO Shinjuku Women",
-     "type": "shop",
-     "lv": true,
-     "text": "The women's store next door, on B1F-4F. Good to check for handbags in the same visit.",
-     "address": "3-19-2 Shinjuku, Shinjuku-ku",
-     "map": "https://www.google.com/maps/search/?api=1&query=KOMEHYO+SHINJUKU+WOMEN+3-19-2+Shinjuku+Tokyo",
-     "lat": 35.6909,
-     "lng": 139.7061,
-     "source": "https://komehyo.jp/kaitori/shop/komehyo-shinjuku-women-2",
-     "photo": {
-      "url": "https://a.mktgcdn.com/p/1_k_aI6UhxjNGtlcifwSsb1bwN0jsUzJ6ym9F9aEa2U/2700x1801.jpg",
-      "credit": "Photo: KOMEHYO",
-      "credit_url": "https://komehyo.jp/kaitori/shop/komehyo-shinjuku-women-2",
-      "license": "official site"
-     }
+      "id": "harajuku",
+      "name": "Harajuku and Omotesando",
+      "num": "02",
+      "color": "#a9772a",
+      "from_shinjuku": "About 5 minutes from Shinjuku on the JR Yamanote Line to Harajuku.",
+      "why": "A calm, tree-lined area where pre-owned luxury shops sit on the side streets near Cat Street.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg/960px-Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg",
+        "caption": "Omotesando Avenue at sunset.",
+        "author": "Gogchan",
+        "license": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Omotesando_Avenue_at_sunset_from_pedestrian_bridge,_Jingumae,_Shibuya,_Tokyo.jpg",
+        "key": "omote"
+      },
+      "plan": "Half day: arrive at 11:00, visit both shops, then walk down Omotesando for a late lunch and go back by train.",
+      "places": [
+        {
+          "name": "RAGTAG Harajuku",
+          "type": "shop",
+          "lv": true,
+          "text": "A pre-owned designer store on two floors. The official floor guide lists Louis Vuitton, Chanel and Hermes on the women's floor.",
+          "address": "5-17-9 Jingumae, Shibuya-ku (Hulic Jingumae 1F-2F)",
+          "map": "https://www.google.com/maps/search/?api=1&query=RAGTAG+Harajuku+5-17-9+Jingumae+Tokyo",
+          "lat": 35.669,
+          "lng": 139.706,
+          "source": "https://www.ragtag.jp/real-store/0000000001",
+          "photo": {
+            "url": "https://www.ragtag.jp/res/p/shop/img/0000000001/slide1.jpg",
+            "credit": "Photo: RAGTAG",
+            "credit_url": "https://www.ragtag.jp/real-store/0000000001",
+            "license": "official site"
+          }
+        },
+        {
+          "name": "KOMEHYO VINTAGE TOKYO",
+          "type": "shop",
+          "lv": false,
+          "text": "KOMEHYO's vintage-focused store in Jingumae, on the basement and ground floors. Ask staff about vintage bags.",
+          "address": "5-1-16 Jingumae, Shibuya-ku",
+          "map": "https://www.google.com/maps/search/?api=1&query=KOMEHYO+VINTAGE+TOKYO+5-1-16+Jingumae+Tokyo",
+          "lat": 35.6655,
+          "lng": 139.712,
+          "source": "https://komehyo.jp/kaitori/shop/komehyo_vintage_tokyo",
+          "photo": {
+            "url": "https://a.mktgcdn.com/p/oXegfVolI39LoJfYjQ84fEsUIEk7RzxHSebaUAtQxaI/750x563.jpg",
+            "credit": "Photo: KOMEHYO",
+            "credit_url": "https://komehyo.jp/kaitori/shop/komehyo_vintage_tokyo",
+            "license": "official site"
+          }
+        }
+      ],
+      "model_route": {
+        "url": "https://www.google.com/maps/dir/?api=1&origin=Harajuku+Station+Tokyo&destination=KOMEHYO+VINTAGE+TOKYO%2C+Harajuku+Tokyo&waypoints=RAGTAG+Harajuku%2C+Harajuku+Tokyo&travelmode=walking",
+        "stops": [
+          "Harajuku Station",
+          "RAGTAG Harajuku",
+          "KOMEHYO VINTAGE TOKYO"
+        ],
+        "note": "about 11 min walking between shops (no rest place listed in this area yet)",
+        "start": {
+          "name": "Harajuku Station",
+          "lat": 35.6702,
+          "lng": 139.7027
+        }
+      }
     },
     {
-     "name": "BRAND OFF Shinjuku",
-     "type": "shop",
-     "lv": true,
-     "text": "Brand Off's Shinjuku shop sells in the store and lists order-in sales. The Brand Off online store shows Louis Vuitton bags.",
-     "address": "3-5-3 Shinjuku, Shinjuku-ku (1F-2F)",
-     "map": "https://www.google.com/maps/search/?api=1&query=BRAND+OFF+Shinjuku+3-5-3+Shinjuku+Tokyo",
-     "lat": 35.6912,
-     "lng": 139.703,
-     "source": "https://www.brandoff.co.jp/shop_list/shop.php?shop=012_shinjuku",
-     "photo": {
-      "url": "https://www.brandoff.co.jp/wordpress/wp-content/uploads/2025/08/brandoff-shop-shinjuku-outlook-right.jpg",
-      "credit": "Photo: BRAND OFF",
-      "credit_url": "https://www.brandoff.co.jp/shop_list/shop.php?shop=012_shinjuku",
-      "license": "official site"
-     }
-    },
-    {
-     "name": "Daikokuya Shinjuku Honten",
-     "type": "shop",
-     "lv": false,
-     "text": "The main Shinjuku store of Daikokuya, a Japanese brand-goods shop that sells and buys. Ask the staff what Louis Vuitton they have today.",
-     "address": "1-5-3 Kabukicho, Shinjuku-ku",
-     "map": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%BB%92%E5%B1%8B+%E6%96%B0%E5%AE%BF%E6%9C%AC%E5%BA%97+%E6%AD%8C%E8%88%9E%E4%BC%8E%E7%94%BA1-5-3",
-     "lat": 35.695,
-     "lng": 139.7027,
-     "source": "https://www.daikokuya78.com/shops.html",
-     "photo": {
-      "url": "https://www.daikokuya78.com/store/shinjuku.jpeg",
-      "credit": "Photo: Daikokuya",
-      "credit_url": "https://www.daikokuya78.com/shops.html",
-      "license": "official site"
-     }
-    },
-    {
-     "name": "Daikokuya Shinjuku Nibankan",
-     "type": "shop",
-     "lv": false,
-     "text": "A second Daikokuya store in Shinjuku 3-chome, near KOMEHYO.",
-     "address": "3-17-13 Shinjuku, Shinjuku-ku",
-     "map": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%BB%92%E5%B1%8B+%E6%96%B0%E5%AE%BF2%E7%95%AA%E9%A4%A8+%E6%96%B0%E5%AE%BF3-17-13",
-     "lat": 35.691,
-     "lng": 139.7055,
-     "source": "https://www.daikokuya78.com/shops.html",
-     "photo": {
-      "url": "https://www.daikokuya78.com/store/shin2.jpeg",
-      "credit": "Photo: Daikokuya",
-      "credit_url": "https://www.daikokuya78.com/shops.html",
-      "license": "official site"
-     }
-    },
-    {
-     "name": "Re.Ra.Ku Shinjuku",
-     "type": "rest",
-     "kind": "Quick: 30 minutes",
-     "text": "A relaxation salon with 30-minute body care courses. Good if you only have a short break between shops. It is 1 minute from Shinjuku-sanchome Station (exit C3).",
-     "address": "6F Onda Central Building, 3-3-3 Shinjuku",
-     "map": "https://www.google.com/maps/search/?api=1&query=Re.Ra.Ku+Shinjuku+3-3-3+Shinjuku+Tokyo",
-     "lat": 35.6908,
-     "lng": 139.704,
-     "source": "https://reraku.jp/studio/shinjuku/",
-     "photo": {
-      "url": "https://imagedelivery.net/NhEg4ltVTkaN7TCIuD8O5g/0931c483-b048-4348-6ca6-e3a58f9c1d00/middle",
-      "credit": "Photo: Re.Ra.Ku",
-      "credit_url": "https://reraku.jp/studio/shinjuku/",
-      "license": "official site"
-     }
-    },
-    {
-     "name": "Thermae-Yu Shinjuku",
-     "type": "rest",
-     "kind": "Hot spring",
-     "text": "A hot-spring bathhouse in Kabukicho that is open 24 hours, with stone-bed saunas. Bathing is nude and separated by gender, so it suits those who like onsen. Plan 2 hours or more.",
-     "address": "1-1-2 Kabukicho, Shinjuku-ku",
-     "map": "https://www.google.com/maps/search/?api=1&query=Thermae-yu+Shinjuku+1-1-2+Kabukicho+Tokyo",
-     "lat": 35.6959,
-     "lng": 139.7025,
-     "source": "https://thermae-yu.jp/",
-     "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Thermae-yu_Shinjuku.jpg/960px-Thermae-yu_Shinjuku.jpg",
-      "credit": "Photo: 妖精書士 / Wikimedia Commons",
-      "credit_url": "https://commons.wikimedia.org/wiki/File:Thermae-yu_Shinjuku.jpg",
-      "license": "CC0"
-     }
-    },
-    {
-     "name": "Mannenyu (Okubo)",
-     "type": "rest",
-     "kind": "Neighborhood bath near Koreatown",
-     "text": "A local sento (public bath) 5 minutes on foot from Shin-Okubo Station, the Korean town of Tokyo. Open 15:00-24:00 and closed on Saturdays. Pair it with a walk and snack in Shin-Okubo.",
-     "address": "1-15-17 Okubo, Shinjuku-ku",
-     "map": "https://www.google.com/maps/search/?api=1&query=%E4%B8%87%E5%B9%B4%E6%B9%AF+%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%A4%A7%E4%B9%85%E4%BF%9D1-15-17",
-     "lat": 35.7019,
-     "lng": 139.7013,
-     "source": "https://mannenyu.jp/",
-     "photo": {
-      "url": "https://mannenyu.jp/wp-content/uploads/2019/01/top-mannen-0119-min.jpg",
-      "credit": "Photo: Mannenyu",
-      "credit_url": "https://mannenyu.jp/",
-      "license": "official site"
-     }
-    },
-    {
-     "name": "Joule Spa & Wellness, Hyatt Regency Tokyo",
-     "type": "rest",
-     "kind": "Hotel spa treat",
-     "text": "A hotel spa that is open to non-guests as a day spa, 11:00-20:00 daily. It has eight treatment rooms, including double rooms with city views. Book ahead.",
-     "address": "2-7-2 Nishi-Shinjuku, Shinjuku-ku",
-     "map": "https://www.google.com/maps/search/?api=1&query=Hyatt+Regency+Tokyo+2-7-2+Nishi-Shinjuku",
-     "lat": 35.6925,
-     "lng": 139.6925,
-     "source": "https://hyattregencytokyo.com/en/joule/",
-     "photo": {
-      "url": "https://hyattregencytokyo.com/hyatt_wp/wp-content/uploads/2026/03/spa_top-scaled.jpg",
-      "credit": "Photo: Hyatt Regency Tokyo",
-      "credit_url": "https://hyattregencytokyo.com/en/joule/",
-      "license": "official site"
-     }
-    },
-    {
-     "name": "TOKYO SHINJUKU SPA.",
-     "type": "rest",
-     "kind": "Thai massage",
-     "text": "A relaxation salon in Nishi-Shinjuku that lists Thai massage, often combined with aroma massage and head spa. Open 9:00-24:00 (last reception 23:00). The entrance is a steep, narrow staircase to the 4th floor, so check it suits everyone.",
-     "address": "4F ENTERPRISE.1, 7-5-11 Nishi-Shinjuku, Shinjuku-ku",
-     "map": "https://www.google.com/maps/search/?api=1&query=TOKYO+SHINJUKU+SPA+7-5-11+Nishi-Shinjuku+Tokyo",
-     "lat": 35.6945,
-     "lng": 139.6955,
-     "source": "https://beauty.hotpepper.jp/kr/slnH000688806/",
-     "photo": {
-      "url": "https://imgbp.hotp.jp/CSP/IMG_SRC_K/76/69/C042057669/C042057669.jpg?impolicy=HPB_policy_default&w=600&h=450",
-      "credit": "Photo: Hot Pepper Beauty",
-      "credit_url": "https://beauty.hotpepper.jp/kr/slnH000688806/",
-      "license": "official site"
-     }
-    },
-    {
-     "name": "Kannam Beauty Shin-Okubo",
-     "type": "rest",
-     "kind": "Korean beauty spa",
-     "text": "A women-only Korean-style beauty salon in private rooms, with facial lift and peeling courses and mugwort steam (yomogi-mushi). It does not list body scrub (akasuri). Open 11:00-21:00 daily; booking is recommended.",
-     "address": "207 Contoir Shinjuku, 1-1-11 Okubo, Shinjuku-ku",
-     "map": "https://www.google.com/maps/search/?api=1&query=Kannam+Beauty+Shin-Okubo+1-1-11+Okubo+Tokyo",
-     "lat": 35.7005,
-     "lng": 139.708,
-     "source": "https://beauty.hotpepper.jp/kr/slnH000821487/"
+      "id": "ginza",
+      "name": "Ginza",
+      "num": "03",
+      "color": "#2f5d62",
+      "from_shinjuku": "About 15 minutes from Shinjuku-sanchome on the Marunouchi Line to Ginza.",
+      "why": "Japan's classic shopping district. Three pre-owned shops are on or near the main streets, so it is easy to compare.",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Chuo-dori_Street_from_Ginza_4-Chome_Crossroads_%28south%29.JPG/960px-Chuo-dori_Street_from_Ginza_4-Chome_Crossroads_%28south%29.JPG",
+        "caption": "Chuo-dori, the main street of Ginza.",
+        "author": "Soramimi",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Chuo-dori_Street_from_Ginza_4-Chome_Crossroads_(south).JPG",
+        "key": "ginza"
+      },
+      "plan": "Half day: start at KOMEHYO Ginza at 11:00, walk up Chuo-dori to Daikokuya and Brand Off, then stop for tea.",
+      "places": [
+        {
+          "name": "KOMEHYO Ginza",
+          "type": "shop",
+          "lv": true,
+          "text": "The Ginza branch of KOMEHYO, on floors 1, 2 and 4. Its official site lists Louis Vuitton as a main brand.",
+          "address": "2-7-18 Ginza, Chuo-ku (Fujita Building)",
+          "map": "https://www.google.com/maps/search/?api=1&query=KOMEHYO+GINZA+2-7-18+Ginza+Tokyo",
+          "lat": 35.6738,
+          "lng": 139.765,
+          "source": "https://komehyo.jp/kaitori/shop/ginza",
+          "photo": {
+            "url": "img/komehyo-ginza.jpg",
+            "credit": "Photo: KOMEHYO",
+            "credit_url": "https://komehyo.jp/kaitori/shop/ginza",
+            "license": "official site"
+          }
+        },
+        {
+          "name": "Daikokuya Ginza",
+          "type": "shop",
+          "lv": false,
+          "text": "Daikokuya's Ginza store. It sells and buys brand goods. Ask staff about Louis Vuitton in stock.",
+          "address": "2-2-17 Ginza, Chuo-ku",
+          "map": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%BB%92%E5%B1%8B+%E9%8A%80%E5%BA%A7%E5%BA%97+%E9%8A%80%E5%BA%A72-2-17",
+          "lat": 35.6745,
+          "lng": 139.768,
+          "source": "https://www.daikokuya78.com/shops.html",
+          "photo": {
+            "url": "img/daikokuya-ginza.jpg",
+            "credit": "Photo: Daikokuya",
+            "credit_url": "https://www.daikokuya78.com/shops.html",
+            "license": "official site"
+          }
+        },
+        {
+          "name": "BRAND OFF Ginza Honten",
+          "type": "shop",
+          "lv": true,
+          "text": "Brand Off's main Ginza store on floors 1-4, with in-store and order-in sales. The Brand Off online store shows Louis Vuitton bags.",
+          "address": "5-5-9 Ginza, Chuo-ku (Aujio Ginza Building)",
+          "map": "https://www.google.com/maps/search/?api=1&query=BRAND+OFF+Ginza+5-5-9+Ginza+Tokyo",
+          "lat": 35.671,
+          "lng": 139.765,
+          "source": "https://www.brandoff.co.jp/shop_list/shop.php?shop=010_ginza_head",
+          "photo": {
+            "url": "https://www.brandoff.co.jp/wordpress/wp-content/uploads/2024/09/shop_ginza-honten-hermes2.jpg",
+            "credit": "Photo: BRAND OFF",
+            "credit_url": "https://www.brandoff.co.jp/shop_list/shop.php?shop=010_ginza_head",
+            "license": "official site"
+          }
+        }
+      ],
+      "model_route": {
+        "url": "https://www.google.com/maps/dir/?api=1&origin=Ginza+Station+Tokyo&destination=Daikokuya+Ginza%2C+Ginza+Tokyo&waypoints=BRAND+OFF+Ginza+Honten%2C+Ginza+Tokyo%7CKOMEHYO+Ginza%2C+Ginza+Tokyo&travelmode=walking",
+        "stops": [
+          "Ginza Station",
+          "BRAND OFF Ginza Honten",
+          "KOMEHYO Ginza",
+          "Daikokuya Ginza"
+        ],
+        "note": "about 10 min walking between shops (no rest place listed in this area yet)",
+        "start": {
+          "name": "Ginza Station",
+          "lat": 35.6717,
+          "lng": 139.764
+        }
+      }
     }
-   ],
-   "model_route": {
-    "url": "https://www.google.com/maps/dir/?api=1&origin=Shinjuku+Station+Tokyo&destination=Thermae-Yu+Shinjuku%2C+Shinjuku+Tokyo&waypoints=BRAND+OFF+Shinjuku%2C+Shinjuku+Tokyo%7CDaikokuya+Shinjuku+Nibankan%2C+Shinjuku+Tokyo%7CKOMEHYO+Shinjuku%2C+Shinjuku+Tokyo%7CKOMEHYO+Shinjuku+Women%2C+Shinjuku+Tokyo%7CDaikokuya+Shinjuku+Honten%2C+Shinjuku+Tokyo&travelmode=walking",
-    "stops": [
-     "Shinjuku Station",
-     "BRAND OFF Shinjuku",
-     "Daikokuya Shinjuku Nibankan",
-     "KOMEHYO Shinjuku",
-     "KOMEHYO Shinjuku Women",
-     "Daikokuya Shinjuku Honten",
-     "Thermae-Yu Shinjuku"
-    ],
-    "note": "about 14 min walking between shops (plus a short walk from the station and on to the spa)"
-   }
-  },
-  {
-   "id": "harajuku",
-   "name": "Harajuku and Omotesando",
-   "num": "02",
-   "color": "#a9772a",
-   "from_shinjuku": "About 5 minutes from Shinjuku on the JR Yamanote Line to Harajuku.",
-   "why": "A calm, tree-lined area where pre-owned luxury shops sit on the side streets near Cat Street.",
-   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg/960px-Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg",
-    "caption": "Omotesando Avenue at sunset.",
-    "author": "Gogchan",
-    "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Omotesando_Avenue_at_sunset_from_pedestrian_bridge,_Jingumae,_Shibuya,_Tokyo.jpg",
-    "key": "omote"
-   },
-   "plan": "Half day: arrive at 11:00, visit both shops, then walk down Omotesando for a late lunch and go back by train.",
-   "places": [
-    {
-     "name": "RAGTAG Harajuku",
-     "type": "shop",
-     "lv": true,
-     "text": "A pre-owned designer store on two floors. The official floor guide lists Louis Vuitton, Chanel and Hermes on the women's floor.",
-     "address": "5-17-9 Jingumae, Shibuya-ku (Hulic Jingumae 1F-2F)",
-     "map": "https://www.google.com/maps/search/?api=1&query=RAGTAG+Harajuku+5-17-9+Jingumae+Tokyo",
-     "lat": 35.669,
-     "lng": 139.706,
-     "source": "https://www.ragtag.jp/real-store/0000000001",
-     "photo": {
-      "url": "https://www.ragtag.jp/res/p/shop/img/0000000001/slide1.jpg",
-      "credit": "Photo: RAGTAG",
-      "credit_url": "https://www.ragtag.jp/real-store/0000000001",
-      "license": "official site"
-     }
-    },
-    {
-     "name": "KOMEHYO VINTAGE TOKYO",
-     "type": "shop",
-     "lv": false,
-     "text": "KOMEHYO's vintage-focused store in Jingumae, on the basement and ground floors. Ask staff about vintage bags.",
-     "address": "5-1-16 Jingumae, Shibuya-ku",
-     "map": "https://www.google.com/maps/search/?api=1&query=KOMEHYO+VINTAGE+TOKYO+5-1-16+Jingumae+Tokyo",
-     "lat": 35.6655,
-     "lng": 139.712,
-     "source": "https://komehyo.jp/kaitori/shop/komehyo_vintage_tokyo",
-     "photo": {
-      "url": "https://a.mktgcdn.com/p/oXegfVolI39LoJfYjQ84fEsUIEk7RzxHSebaUAtQxaI/750x563.jpg",
-      "credit": "Photo: KOMEHYO",
-      "credit_url": "https://komehyo.jp/kaitori/shop/komehyo_vintage_tokyo",
-      "license": "official site"
-     }
-    }
-   ],
-   "model_route": {
-    "url": "https://www.google.com/maps/dir/?api=1&origin=KOMEHYO+VINTAGE+TOKYO%2C+Harajuku+Tokyo&destination=RAGTAG+Harajuku%2C+Harajuku+Tokyo&travelmode=walking",
-    "stops": [
-     "KOMEHYO VINTAGE TOKYO",
-     "RAGTAG Harajuku"
-    ],
-    "note": "about 11 min walking between shops (no rest place listed in this area yet)"
-   }
-  },
-  {
-   "id": "ginza",
-   "name": "Ginza",
-   "num": "03",
-   "color": "#2f5d62",
-   "from_shinjuku": "About 15 minutes from Shinjuku-sanchome on the Marunouchi Line to Ginza.",
-   "why": "Japan's classic shopping district. Three pre-owned shops are on or near the main streets, so it is easy to compare.",
-   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Chuo-dori_Street_from_Ginza_4-Chome_Crossroads_%28south%29.JPG/960px-Chuo-dori_Street_from_Ginza_4-Chome_Crossroads_%28south%29.JPG",
-    "caption": "Chuo-dori, the main street of Ginza.",
-    "author": "Soramimi",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Chuo-dori_Street_from_Ginza_4-Chome_Crossroads_(south).JPG",
-    "key": "ginza"
-   },
-   "plan": "Half day: start at KOMEHYO Ginza at 11:00, walk up Chuo-dori to Daikokuya and Brand Off, then stop for tea.",
-   "places": [
-    {
-     "name": "KOMEHYO Ginza",
-     "type": "shop",
-     "lv": true,
-     "text": "The Ginza branch of KOMEHYO, on floors 1, 2 and 4. Its official site lists Louis Vuitton as a main brand.",
-     "address": "2-7-18 Ginza, Chuo-ku (Fujita Building)",
-     "map": "https://www.google.com/maps/search/?api=1&query=KOMEHYO+GINZA+2-7-18+Ginza+Tokyo",
-     "lat": 35.6738,
-     "lng": 139.765,
-     "source": "https://komehyo.jp/kaitori/shop/ginza",
-     "photo": {
-      "url": "img/komehyo-ginza.jpg",
-      "credit": "Photo: KOMEHYO",
-      "credit_url": "https://komehyo.jp/kaitori/shop/ginza",
-      "license": "official site"
-     }
-    },
-    {
-     "name": "Daikokuya Ginza",
-     "type": "shop",
-     "lv": false,
-     "text": "Daikokuya's Ginza store. It sells and buys brand goods. Ask staff about Louis Vuitton in stock.",
-     "address": "2-2-17 Ginza, Chuo-ku",
-     "map": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%BB%92%E5%B1%8B+%E9%8A%80%E5%BA%A7%E5%BA%97+%E9%8A%80%E5%BA%A72-2-17",
-     "lat": 35.6745,
-     "lng": 139.768,
-     "source": "https://www.daikokuya78.com/shops.html",
-     "photo": {
-      "url": "img/daikokuya-ginza.jpg",
-      "credit": "Photo: Daikokuya",
-      "credit_url": "https://www.daikokuya78.com/shops.html",
-      "license": "official site"
-     }
-    },
-    {
-     "name": "BRAND OFF Ginza Honten",
-     "type": "shop",
-     "lv": true,
-     "text": "Brand Off's main Ginza store on floors 1-4, with in-store and order-in sales. The Brand Off online store shows Louis Vuitton bags.",
-     "address": "5-5-9 Ginza, Chuo-ku (Aujio Ginza Building)",
-     "map": "https://www.google.com/maps/search/?api=1&query=BRAND+OFF+Ginza+5-5-9+Ginza+Tokyo",
-     "lat": 35.671,
-     "lng": 139.765,
-     "source": "https://www.brandoff.co.jp/shop_list/shop.php?shop=010_ginza_head",
-     "photo": {
-      "url": "https://www.brandoff.co.jp/wordpress/wp-content/uploads/2024/09/shop_ginza-honten-hermes2.jpg",
-      "credit": "Photo: BRAND OFF",
-      "credit_url": "https://www.brandoff.co.jp/shop_list/shop.php?shop=010_ginza_head",
-      "license": "official site"
-     }
-    }
-   ],
-   "model_route": {
-    "url": "https://www.google.com/maps/dir/?api=1&origin=BRAND+OFF+Ginza+Honten%2C+Ginza+Tokyo&destination=Daikokuya+Ginza%2C+Ginza+Tokyo&waypoints=KOMEHYO+Ginza%2C+Ginza+Tokyo&travelmode=walking",
-    "stops": [
-     "BRAND OFF Ginza Honten",
-     "KOMEHYO Ginza",
-     "Daikokuya Ginza"
-    ],
-    "note": "about 10 min walking between shops (no rest place listed in this area yet)"
-   }
-  }
- ],
- "tips": {
-  "lv": [
-   "Date codes: Louis Vuitton bags carry a date code or serial stamp, and where it sits changes by year and by model. Ask the staff to show you where it is on the bag you like.",
-   "Ask for the shop's authenticity guarantee in writing, or ask how the shop checks its items.",
-   "Look closely at the corners, the handles and the zipper. These wear first, and shops grade condition from there."
   ],
-  "general": [
-   "Tax-free shopping: bring your physical passport. Shops need to see it at the time of purchase.",
-   "Authenticity: each store has its own policy on guarantees and certificates. Ask before you pay.",
-   "Condition grades: shops grade each item. The scale differs by shop, so ask staff to explain it if you are unsure.",
-   "Many shops open around 11:00. Check the store's page on the day, as hours can change."
-  ]
- },
- "photos": {
-  "shinjuku": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Intersection_in_Kabukich%C5%8D%2C_Shinjuku%2C_Tokyo_dllu.jpg/960px-Intersection_in_Kabukich%C5%8D%2C_Shinjuku%2C_Tokyo_dllu.jpg",
-   "caption": "A busy crossing on the east side of Shinjuku.",
-   "author": "Daniel L. Lu (dllu)",
-   "license": "CC BY-SA 4.0",
-   "page": "https://commons.wikimedia.org/wiki/File:Intersection_in_Kabukich%C5%8D,_Shinjuku,_Tokyo_dllu.jpg"
+  "tips": {
+    "lv": [
+      "Date codes: Louis Vuitton bags carry a date code or serial stamp, and where it sits changes by year and by model. Ask the staff to show you where it is on the bag you like.",
+      "Ask for the shop's authenticity guarantee in writing, or ask how the shop checks its items.",
+      "Look closely at the corners, the handles and the zipper. These wear first, and shops grade condition from there."
+    ],
+    "general": [
+      "Tax-free shopping: bring your physical passport. Shops need to see it at the time of purchase.",
+      "Authenticity: each store has its own policy on guarantees and certificates. Ask before you pay.",
+      "Condition grades: shops grade each item. The scale differs by shop, so ask staff to explain it if you are unsure.",
+      "Many shops open around 11:00. Check the store's page on the day, as hours can change."
+    ]
   },
-  "omote": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg/960px-Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg",
-   "caption": "Omotesando Avenue at sunset.",
-   "author": "Gogchan",
-   "license": "CC BY 4.0",
-   "page": "https://commons.wikimedia.org/wiki/File:Omotesando_Avenue_at_sunset_from_pedestrian_bridge,_Jingumae,_Shibuya,_Tokyo.jpg"
+  "photos": {
+    "shinjuku": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Intersection_in_Kabukich%C5%8D%2C_Shinjuku%2C_Tokyo_dllu.jpg/960px-Intersection_in_Kabukich%C5%8D%2C_Shinjuku%2C_Tokyo_dllu.jpg",
+      "caption": "A busy crossing on the east side of Shinjuku.",
+      "author": "Daniel L. Lu (dllu)",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Intersection_in_Kabukich%C5%8D,_Shinjuku,_Tokyo_dllu.jpg"
+    },
+    "omote": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg/960px-Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg",
+      "caption": "Omotesando Avenue at sunset.",
+      "author": "Gogchan",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Omotesando_Avenue_at_sunset_from_pedestrian_bridge,_Jingumae,_Shibuya,_Tokyo.jpg"
+    },
+    "ginza": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Chuo-dori_Street_from_Ginza_4-Chome_Crossroads_%28south%29.JPG/960px-Chuo-dori_Street_from_Ginza_4-Chome_Crossroads_%28south%29.JPG",
+      "caption": "Chuo-dori, the main street of Ginza.",
+      "author": "Soramimi",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Chuo-dori_Street_from_Ginza_4-Chome_Crossroads_(south).JPG"
+    }
   },
-  "ginza": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Chuo-dori_Street_from_Ginza_4-Chome_Crossroads_%28south%29.JPG/960px-Chuo-dori_Street_from_Ginza_4-Chome_Crossroads_%28south%29.JPG",
-   "caption": "Chuo-dori, the main street of Ginza.",
-   "author": "Soramimi",
-   "license": "CC BY-SA 4.0",
-   "page": "https://commons.wikimedia.org/wiki/File:Chuo-dori_Street_from_Ginza_4-Chome_Crossroads_(south).JPG"
-  }
- },
- "notes": "Dropped: Nakano Broadway, Daikanyama/Ebisu, Vintage Qoo, Amore, Raffine, Shin-Okubo Korean body-scrub spas, Thai massage: no official page confirmed. Map coordinates are approximate (building level); the Google Maps links are the reference. Added 2026-10-09: two Shinjuku rest places (TOKYO SHINJUKU SPA., Kannam Beauty). Still not added: Nakano Broadway (no bag shop confirmed), Ebisu shops, Raffine Shinjuku, a Shin-Okubo akasuri spa. Daikanyama (Hedy) was removed: too few spots."
+  "notes": "Dropped: Nakano Broadway, Daikanyama/Ebisu, Vintage Qoo, Amore, Raffine, Shin-Okubo Korean body-scrub spas, Thai massage: no official page confirmed. Map coordinates are approximate (building level); the Google Maps links are the reference. Added 2026-10-09: two Shinjuku rest places (TOKYO SHINJUKU SPA., Kannam Beauty). Still not added: Nakano Broadway (no bag shop confirmed), Ebisu shops, Raffine Shinjuku, a Shin-Okubo akasuri spa. Daikanyama (Hedy) was removed: too few spots."
 }
