@@ -119,6 +119,28 @@
      "lat": 35.6925,
      "lng": 139.6925,
      "source": "https://hyattregencytokyo.com/en/joule/"
+    },
+    {
+     "name": "TOKYO SHINJUKU SPA.",
+     "type": "rest",
+     "kind": "Thai massage",
+     "text": "A relaxation salon in Nishi-Shinjuku that lists Thai massage, often combined with aroma massage and head spa. Open 9:00-24:00 (last reception 23:00). The entrance is a steep, narrow staircase to the 4th floor, so check it suits everyone.",
+     "address": "4F ENTERPRISE.1, 7-5-11 Nishi-Shinjuku, Shinjuku-ku",
+     "map": "https://www.google.com/maps/search/?api=1&query=TOKYO+SHINJUKU+SPA+7-5-11+Nishi-Shinjuku+Tokyo",
+     "lat": 35.6945,
+     "lng": 139.6955,
+     "source": "https://beauty.hotpepper.jp/kr/slnH000688806/"
+    },
+    {
+     "name": "Kannam Beauty Shin-Okubo",
+     "type": "rest",
+     "kind": "Korean beauty spa",
+     "text": "A women-only Korean-style beauty salon in private rooms, with facial lift and peeling courses and mugwort steam (yomogi-mushi). It does not list body scrub (akasuri). Open 11:00-21:00 daily; booking is recommended.",
+     "address": "207 Contoir Shinjuku, 1-1-11 Okubo, Shinjuku-ku",
+     "map": "https://www.google.com/maps/search/?api=1&query=Kannam+Beauty+Shin-Okubo+1-1-11+Okubo+Tokyo",
+     "lat": 35.7005,
+     "lng": 139.708,
+     "source": "https://beauty.hotpepper.jp/kr/slnH000821487/"
     }
    ]
   },
@@ -214,6 +236,36 @@
      "source": "https://www.brandoff.co.jp/shop_list/shop.php?shop=010_ginza_head"
     }
    ]
+  },
+  {
+   "id": "daikanyama",
+   "name": "Daikanyama",
+   "num": "04",
+   "color": "#4f6b3a",
+   "from_shinjuku": "About 20 minutes: JR Yamanote Line to Ebisu (about 7 minutes), then a walk of about 10 minutes. Times are approximate.",
+   "why": "A quiet, low-rise neighborhood of small boutiques. It is a calmer trip than the big stores, with one pre-owned designer bag shop to see.",
+   "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Walk_in_Daikanyama.jpg/960px-Walk_in_Daikanyama.jpg",
+    "caption": "A street walk in Daikanyama.",
+    "author": "Syced",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Walk_in_Daikanyama.jpg",
+    "key": "daikanyama"
+   },
+   "plan": "Short visit: go to Hedy around 11:00, then walk the side streets for a cafe stop before heading back.",
+   "places": [
+    {
+     "name": "Hedy Daikanyama",
+     "type": "shop",
+     "lv": true,
+     "text": "A small shop for pre-owned designer bags. Its official site has a Louis Vuitton collection page; ask the staff what is in the store today. Hours 11:00-20:00.",
+     "address": "26-8 Sarugakucho, Shibuya-ku",
+     "map": "https://www.google.com/maps/search/?api=1&query=Hedy+Daikanyama+26-8+Sarugakucho+Shibuya+Tokyo",
+     "lat": 35.6487,
+     "lng": 139.7004,
+     "source": "https://www.hedy.jp/pages/find-a-store"
+    }
+   ]
   }
  ],
  "tips": {
@@ -250,7 +302,14 @@
    "author": "Soramimi",
    "license": "CC BY-SA 4.0",
    "page": "https://commons.wikimedia.org/wiki/File:Chuo-dori_Street_from_Ginza_4-Chome_Crossroads_(south).JPG"
+  },
+  "daikanyama": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Walk_in_Daikanyama.jpg/960px-Walk_in_Daikanyama.jpg",
+   "caption": "A street walk in Daikanyama.",
+   "author": "Syced",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Walk_in_Daikanyama.jpg"
   }
  },
- "notes": "Dropped: Nakano Broadway, Daikanyama/Ebisu, Vintage Qoo, Amore, Raffine, Shin-Okubo Korean body-scrub spas, Thai massage: no official page confirmed. Map coordinates are approximate (building level); the Google Maps links are the reference."
+ "notes": "Dropped: Nakano Broadway, Daikanyama/Ebisu, Vintage Qoo, Amore, Raffine, Shin-Okubo Korean body-scrub spas, Thai massage: no official page confirmed. Map coordinates are approximate (building level); the Google Maps links are the reference. Added 2026-10-09: Daikanyama (Hedy) and two Shinjuku rest places (TOKYO SHINJUKU SPA., Kannam Beauty). Still not added: Nakano Broadway (no bag shop confirmed), Ebisu shops, Raffine Shinjuku, a Shin-Okubo akasuri spa."
 }
