@@ -1,0 +1,80 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Your day, step by step</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf5ec;--ink:#2b2522;--mute:#6b605a;--card:#fffdf9;--line:#eadfce;--rose:#e8a598;--sage:#9db8a2;--sun:#f1c779;--c:#8a2f2b}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "Nunito Sans",system-ui,sans-serif;overflow-x:hidden}
+.hand{font-family:Caveat,cursive;font-weight:700}
+.w{max-width:640px;margin:0 auto;padding:0 16px}
+header{padding:44px 0 20px}
+h1{font:700 clamp(44px,13vw,72px)/.95 Caveat,cursive;margin:0 0 14px;color:#7a2a26}
+.intro{margin:0;font-size:17px}
+.from{font:700 26px Caveat,cursive;margin:12px 0 0;color:#7a2a26}
+.tl{position:relative;margin:24px 0 0;padding-left:34px}
+.tl:before{content:"";position:absolute;left:11px;top:8px;bottom:0;width:4px;border-radius:2px;background:repeating-linear-gradient(var(--rose) 0 10px,transparent 10px 18px)}
+.step{position:relative;margin:0 0 40px}
+.dot{position:absolute;left:-34px;top:2px;width:26px;height:26px;border-radius:50%;background:var(--t);border:4px solid var(--bg);box-shadow:0 0 0 2px var(--t)}
+.when{font:700 32px/1.1 Caveat,cursive;color:var(--t);margin:0}
+.train{display:inline-block;margin:6px 0 10px;padding:4px 12px;border-radius:999px;background:var(--tb);font-weight:700;font-size:14px}
+h2{font:700 26px/1.2 "Nunito Sans",sans-serif;margin:2px 0 8px}
+.why{margin:0 0 14px;color:var(--mute)}
+figure{margin:0 0 14px}figure img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:20px;background:var(--line)}
+figcaption{font-size:13px;color:var(--mute);margin-top:6px}
+.plan{background:var(--tb);border-radius:16px;padding:12px 14px;margin:0 0 16px;font-size:15.5px}
+.plan b{font:700 22px Caveat,cursive;display:block}
+.pl{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;margin:0 0 12px}
+.pl h3{font:700 19px/1.25 "Nunito Sans",sans-serif;margin:0 0 6px}
+.tag{display:inline-block;font-size:12.5px;font-weight:700;padding:3px 10px;border-radius:999px;margin:0 6px 8px 0}
+.lv{background:#2b2522;color:#fff}.nolv{background:#efe6d8;color:var(--mute)}.kind{background:#dcebdf;color:#2f5d44}
+.pl p{margin:0 0 8px;font-size:16px}.addr{font-size:14px;color:var(--mute)}
+.btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.btns a{display:flex;align-items:center;justify-content:center;min-height:48px;padding:0 18px;border-radius:14px;font-weight:700;text-decoration:none;font-size:16px}
+.go{background:var(--t);color:#fff;flex:1 1 150px}.src{border:2px solid var(--line);color:var(--ink);flex:0 1 auto}
+.tips{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:20px 18px;margin:0 0 40px}
+.tips h2{font:700 32px Caveat,cursive;color:#7a2a26}.tips h3{font-size:15px;text-transform:uppercase;letter-spacing:.08em;color:var(--mute);margin:16px 0 4px}
+.tips ul{margin:0;padding-left:20px}.tips li{margin:8px 0}
+footer{font-size:13px;color:var(--mute);padding:0 0 48px}footer a{color:inherit;overflow-wrap:anywhere}footer p{margin:6px 0}
+</style></head><body><div class="w">
+<header><h1 id="t">Your day, step by step</h1><p class="intro" id="intro"></p><p class="from" id="from"></p></header>
+<main id="m"><div class="tl" id="tl"></div><div id="tips"></div></main>
+<footer id="f"></footer></div>
+<script>
+const $=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.textContent=h;return e};
+const a$=(h,t,c)=>{const e=$('a',c,t);e.href=h;e.target='_blank';e.rel='noopener';return e};
+const mins=a=>{const m=/(\d+)\s*minutes/.exec(a.from_shinjuku);return m?+m[1]:0};
+const tint=c=>c+'26';
+function place(p,col){
+ const d=$('div','pl');d.style.setProperty('--t',col);
+ if(p.type==='shop'){d.append($('span','tag '+(p.lv?'lv':'nolv'),p.lv?'Louis Vuitton on their site':'Ask about Louis Vuitton'))}
+ else if(p.kind)d.append($('span','tag kind',p.kind));
+ d.append($('h3',0,p.name),$('p',0,p.text),$('p','addr',p.address));
+ const b=$('div','btns');b.append(a$(p.map,'Open in Google Maps','go'));
+ if(p.source)b.append(a$(p.source,'Official page','src'));
+ d.append(b);return d}
+function step(label,area,list,col,withPhoto,sub){
+ const s=$('section','step');s.style.setProperty('--t',col);s.style.setProperty('--tb',tint(col));
+ s.append($('span','dot'),$('p','when',label));
+ if(sub)s.append($('span','train',sub));
+ if(area){s.append($('h2',0,area.name));if(withPhoto){s.append($('p','why',area.why));
+  const f=$('figure'),i=new Image();i.src=area.photo.url;i.alt=area.photo.caption;i.loading='lazy';f.append(i,$('figcaption',0,area.photo.caption));s.append(f);
+  const pl=$('div','plan');pl.append($('b',0,'The plan'),document.createTextNode(area.plan));s.append(pl)}}
+ list.forEach(p=>s.append(place(p,col)));return s}
+fetch('../content.json').then(r=>r.json()).then(c=>{
+ document.title=c.title;document.getElementById('intro').textContent=c.intro;
+ document.getElementById('from').textContent='— '+c.from;
+ const tl=document.getElementById('tl');
+ const [home,...rest]=c.areas;rest.sort((x,y)=>mins(x)-mins(y));
+ tl.append(step('Morning',home,home.places.filter(p=>p.type==='shop'),home.color,true,home.from_shinjuku));
+ const r=home.places.filter(p=>p.type==='rest');
+ if(r.length){const s=step('Break',null,r,'#2f5d62');s.querySelector('.when').after($('h2',0,'Rest your feet in '+home.name));tl.append(s)}
+ rest.forEach(a=>tl.append(step('Afternoon option',a,a.places,a.color,true,a.from_shinjuku)));
+ const tp=document.getElementById('tips'),t=c.tips,box=$('div','tips');
+ box.append($('h2',0,'Good to know'));
+ [['Louis Vuitton',t.lv],['Shopping in general',t.general]].forEach(([h,l])=>{box.append($('h3',0,h));const u=$('ul');l.forEach(x=>u.append($('li',0,x)));box.append(u)});
+ tp.append(box);
+ const f=document.getElementById('f');f.append($('p',0,'Updated '+c.updated+'. Map pins are approximate; use the Google Maps buttons.'));
+ const p=$('p',0,'Photos: ');c.areas.forEach((a,i)=>{const k=a.photo;if(i)p.append('; ');p.append(a$(k.page,k.caption.replace(/\.$/,'')),' by '+k.author+', '+k.license)});f.append(p)
+}).catch(()=>{document.getElementById('intro').textContent='Sorry, this page could not load.'});
+</script></body></html>

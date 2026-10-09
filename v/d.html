@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tokyo Pre-owned LV Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--ink:#0b0b0b;--mut:#555;--line:#0b0b0b;--soft:#f2f1ee;--lv:#0b0b0b}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.5 Archivo,system-ui,sans-serif;overflow-x:hidden}
+a{color:inherit}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+header{border-bottom:4px solid var(--ink);padding:28px 0 20px}
+.kick{font:700 12px/1 'JetBrains Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+h1{font-weight:900;font-size:clamp(34px,8vw,72px);line-height:.95;letter-spacing:-.03em;margin:12px 0 14px;overflow-wrap:anywhere}
+.intro{max-width:62ch;font-size:17px}
+h2{font:700 12px/1 'JetBrains Mono',monospace;letter-spacing:.08em;text-transform:uppercase;margin:40px 0 12px;display:flex;gap:10px;align-items:center}
+h2::after{content:"";flex:1;border-top:2px solid var(--ink)}
+.areas{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.card{border:2px solid var(--ink);display:flex;flex-direction:column;min-width:0}
+.card .bar{height:10px}
+.card img{width:100%;height:120px;object-fit:cover;display:block;border-bottom:2px solid var(--ink)}
+.card .b{padding:14px;display:flex;flex-direction:column;gap:10px;flex:1}
+.num{font:700 13px 'JetBrains Mono',monospace}
+.card h3{font-weight:900;font-size:26px;line-height:1.05;letter-spacing:-.02em;overflow-wrap:anywhere}
+.time{font-weight:900;font-size:44px;line-height:1;letter-spacing:-.04em}
+.time small{font-size:15px;font-weight:600;letter-spacing:0;margin-left:4px}
+.how{font-size:14px;color:var(--mut)}
+.counts{display:grid;grid-template-columns:1fr 1fr;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)}
+.counts div{padding:8px 10px;font-size:13px}
+.counts div+div{border-left:2px solid var(--ink)}
+.counts b{display:block;font-size:30px;font-weight:900;line-height:1}
+.plan{font-size:14px}
+.row{display:grid;grid-template-columns:150px 1.2fr 90px 130px;gap:0 16px;padding:14px 0;border-top:1px solid var(--ink);align-items:start}
+.rest .row{grid-template-columns:150px 1.2fr 130px}
+.head{font:700 11px 'JetBrains Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);border-top:2px solid var(--ink);padding:8px 0}
+.name{font-weight:800;font-size:18px;line-height:1.2}
+.area{font:700 12px 'JetBrains Mono',monospace;text-transform:uppercase;display:flex;gap:6px;align-items:center;min-width:0}
+.dot{width:12px;height:12px;flex:none}
+.good{font-size:15px}.good .addr{display:block;color:var(--mut);font-size:13px;margin-top:4px}
+.lv{font:700 12px 'JetBrains Mono',monospace;padding:4px 8px;border:2px solid var(--ink);display:inline-block}
+.lv.y{background:var(--ink);color:#fff}
+.lv.n{color:var(--mut);border-style:dashed}
+.btn{display:flex;align-items:center;justify-content:center;min-height:48px;padding:0 14px;background:var(--ink);color:#fff;text-decoration:none;font-weight:800;font-size:15px;border:2px solid var(--ink)}
+.btn:hover,.btn:focus-visible{background:#fff;color:var(--ink)}
+.kind{font-weight:800;font-size:12px;background:var(--soft);padding:3px 8px;display:inline-block;font-family:'JetBrains Mono',monospace}
+.tips{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tips div{border:2px solid var(--ink);padding:14px}
+.tips h3{font:700 12px 'JetBrains Mono',monospace;text-transform:uppercase;margin-bottom:8px}
+.tips li{margin:0 0 8px 18px;font-size:15px}
+footer{border-top:4px solid var(--ink);margin-top:48px;padding:18px 0 40px;font-size:13px;color:var(--mut)}
+footer p+p{margin-top:6px}
+@media(max-width:820px){
+.areas,.tips{grid-template-columns:1fr}
+.row,.rest .row{grid-template-columns:1fr auto;gap:8px 12px}
+.row .good{grid-column:1/-1;order:3}
+.row .btn{grid-column:1/-1;order:4}
+.row .area{order:1}.row .lvc{order:2;justify-self:end}
+.head{display:none}
+.rest .row .kindc{justify-self:end}
+.name{font-size:20px}
+}
+</style></head><body>
+<header><div class="wrap">
+<div class="kick" id="kick"></div><h1 id="title">&nbsp;</h1><p class="intro" id="intro"></p>
+</div></header>
+<main class="wrap">
+<h2>Pick an area</h2><div class="areas" id="areas"></div>
+<h2>Shops compared</h2><div id="shops"></div>
+<h2>Where to rest</h2><div id="rests" class="rest"></div>
+<h2>Before you buy</h2><div class="tips" id="tips"></div>
+</main>
+<footer><div class="wrap" id="foot"></div></footer>
+<script>
+const $=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.textContent=h;return e};
+const map=(u)=>{const a=$('a','btn','Open in Google Maps ↗');a.href=u;a.target='_blank';a.rel='noopener';return a};
+fetch('../content.json').then(r=>r.json()).then(d=>{
+document.title=d.title;
+$('kick').textContent;document.getElementById('kick').textContent='For Karina · from '+d.from+' · '+d.updated;
+document.getElementById('title').textContent=d.title;
+document.getElementById('intro').textContent=d.intro;
+const A=document.getElementById('areas'),S=document.getElementById('shops'),R=document.getElementById('rests');
+const sh=$('div','row head');['Area','Good for','Louis Vuitton','Maps'].forEach(x=>sh.append($('div',null,x)));S.append(sh);
+const rh=$('div','row head');['Area','Best if you want…','Maps'].forEach(x=>rh.append($('div',null,x)));R.append(rh);
+d.areas.forEach(a=>{
+ const shops=a.places.filter(p=>p.type==='shop'),rests=a.places.filter(p=>p.type==='rest');
+ const c=$('div','card');const bar=$('div','bar');bar.style.background=a.color;c.append(bar);
+ if(a.photo){const i=$('img');i.src=a.photo.url;i.alt=a.photo.caption;i.loading='lazy';c.append(i)}
+ const b=$('div','b');b.append($('div','num',a.num));b.append($('h3',null,a.name));
+ const m=a.from_shinjuku.match(/(\d+)\s*minutes/);
+ const t=$('div','time');if(m){t.textContent=m[1];t.append($('small',null,'min'))}else{t.textContent='Home'}
+ b.append(t);b.append($('div','how',a.from_shinjuku));
+ const k=$('div','counts');
+ [[shops.length,'shops'],[rests.length,'rest spots']].forEach(([n,l])=>{const x=$('div');x.append($('b',null,n),document.createTextNode(l));k.append(x)});
+ b.append(k);b.append($('p','plan',a.why));b.append($('p','plan',a.plan));
+ c.append(b);A.append(c);
+ const dot=()=>{const w=$('div','area');const s=$('span','dot');s.style.background=a.color;w.append(s,$('span',null,a.name));return w};
+ shops.forEach(p=>{const r=$('div','row');r.append(dot());
+  const g=$('div','good');g.append($('div','name',p.name),document.createTextNode(p.text));g.append($('span','addr',p.address));
+  const l=$('div','lvc');l.append($('span','lv '+(p.lv?'y':'n'),p.lv?'LV listed':'Ask staff'));
+  r.append(g,l,map(p.map));
+  // reorder: name sits in good col
+  S.append(r)});
+ rests.forEach(p=>{const r=$('div','row');r.append(dot());
+  const g=$('div','good');g.append($('div','name',p.name),document.createTextNode(p.text));g.append($('span','addr',p.address));
+  const kc=$('div','kindc');kc.append($('span','kind',p.kind));g.prepend(kc);kc.style.marginBottom='6px';
+  r.append(g,map(p.map));R.append(r)});
+});
+const T=document.getElementById('tips');
+[['Louis Vuitton checks',d.tips.lv],['General tips',d.tips.general]].forEach(([h,l])=>{const x=$('div');x.append($('h3',null,h));const u=$('ul');l.forEach(i=>u.append($('li',null,i)));x.append(u);T.append(x)});
+const F=document.getElementById('foot');
+F.append($('p',null,'Photos (Wikimedia Commons):'));
+d.areas.forEach(a=>{if(!a.photo)return;const p=$('p');const l=$('a',null,a.photo.caption);l.href=a.photo.page;p.append(l,document.createTextNode(' — '+a.photo.author+', '+a.photo.license));F.append(p)});
+F.append($('p',null,'Map pins and hours can change. Check the Google Maps link on the day.'));
+});
+</script></body></html>

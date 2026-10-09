@@ -1,0 +1,147 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tokyo Preloved Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root{--bg:#f4f4f1;--card:#fff;--ink:#1d1d1b;--mute:#66665f;--line:#deded8;--shop:#1d1d1b;--rest:#1f7a6d;--gold:#c8962e;--hot:#d9482b}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.55 Inter,system-ui,sans-serif;overflow-x:hidden}
+a{color:inherit}
+.top{position:sticky;top:0;z-index:20;background:var(--bg)}
+.bar{display:flex;align-items:center;gap:10px;padding:8px 12px}
+.bar h1{font:600 17px/1.15 Fraunces,Georgia,serif;margin:0;flex:1;min-width:0}
+.bar small{font:500 11px Inter;color:var(--mute);display:block;letter-spacing:.04em}
+#map{height:42vh;min-height:230px;max-height:480px;background:#e6e6e2;z-index:1;border-block:1px solid var(--line)}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:8px 12px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chips button{flex:none;font:500 14px Inter;padding:9px 14px;min-height:40px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.chips button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.chips .sep{flex:none;width:1px;background:var(--line);margin:4px 2px}
+main{max-width:760px;margin:0 auto;padding:0 12px 60px}
+.intro{padding:20px 4px 6px}.intro p{margin:0 0 8px;font-size:16px}.intro .by{color:var(--mute);font-size:14px}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--mute);padding:4px 4px 0}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.area{margin-top:30px;scroll-margin-top:var(--topH,300px)}
+.ah{display:flex;gap:12px;align-items:flex-start;padding:0 4px 10px}
+.ah .n{font:600 34px/1 Fraunces,serif;color:var(--c)}
+.ah h2{font:600 26px/1.1 Fraunces,serif;margin:0 0 4px}
+.train{display:inline-block;font:600 13px Inter;background:var(--c);color:#fff;padding:3px 10px;border-radius:999px;margin:2px 0 6px}
+.ah p{margin:0 0 6px;font-size:15px;color:#3a3a36}
+.plan{background:#fff8e6;border:1px solid #efdca6;border-radius:10px;padding:10px 12px;font-size:14px;margin:6px 4px 10px}
+.plan b{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#8a6a14;display:block}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:10px 0;scroll-margin-top:var(--topH,300px);transition:box-shadow .2s,border-color .2s;cursor:pointer}
+.card.hl{border-color:var(--hot);box-shadow:0 0 0 3px rgba(217,72,43,.2)}
+.card.rest{border-left:5px solid var(--rest)}.card.shop{border-left:5px solid var(--shop)}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px}
+.tag{font:600 11px Inter;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:6px;background:#eee;color:#444}
+.tag.lv{background:var(--gold);color:#fff}.tag.r{background:#dff1ed;color:var(--rest)}.tag.q{background:#eee;color:#666;text-transform:none;letter-spacing:0}
+.card h3{font:600 20px/1.2 Fraunces,serif;margin:0 0 6px}
+.card p{margin:0 0 8px;font-size:15px}.addr{color:var(--mute);font-size:13px!important}
+.btns{display:flex;gap:8px;margin-top:10px}
+.btn{flex:1;display:flex;align-items:center;justify-content:center;min-height:48px;border-radius:12px;font:600 15px Inter;text-decoration:none;background:var(--ink);color:#fff}
+.btn.sec{flex:0 0 auto;padding:0 16px;background:transparent;color:var(--ink);border:1px solid var(--line);font-weight:500;font-size:14px}
+.ph{margin:12px 4px 0;font-size:12px;color:var(--mute)}
+.tips{margin-top:40px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.tips h2{font:600 22px Fraunces,serif;margin:0 0 8px}.tips h3{font:600 12px Inter;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin:14px 0 4px}
+.tips ul{margin:0;padding-left:18px}.tips li{margin:6px 0;font-size:15px}
+.hide{display:none!important}
+.pin{display:grid;place-items:center;color:#fff;font:700 11px Inter;border:2px solid #fff;box-shadow:0 1px 5px rgba(0,0,0,.4);transition:transform .15s}
+.pin.shop{width:26px;height:26px;border-radius:50%;background:var(--shop)}
+.pin.shop.lv{background:var(--gold)}
+.pin.rest{width:24px;height:24px;border-radius:7px;background:var(--rest);transform:rotate(45deg)}.pin.rest span{transform:rotate(-45deg)}
+.pin.on{transform:scale(1.5);background:var(--hot)}.pin.rest.on{transform:rotate(45deg) scale(1.5)}
+.leaflet-container{font-family:Inter}
+.hotel{font:600 11px Inter;color:var(--hot);background:rgba(255,255,255,.9);padding:1px 6px;border-radius:6px;white-space:nowrap}
+@media(min-width:800px){#map{height:46vh}}
+</style></head><body>
+<div class="top" id="top">
+ <div class="bar"><h1 id="t">Loading…<small id="by"></small></h1></div>
+ <div id="map"></div>
+ <div class="chips" id="chips"></div>
+</div>
+<main id="m"></main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const $=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.textContent=h;return e};
+const top_=document.getElementById('top');
+const setH=()=>document.documentElement.style.setProperty('--topH',(top_.offsetHeight+10)+'px');
+fetch('../content.json').then(r=>r.json()).then(build).catch(e=>{document.getElementById('t').textContent='Could not load the guide.';console.error(e)});
+function build(d){
+ document.title=d.title;
+ const t=document.getElementById('t');t.textContent='';t.append(d.title,Object.assign($('small','','Map first · from '+d.from+' · updated '+d.updated)));
+ const map=L.map('map',{zoomControl:true,scrollWheelZoom:false}).setView([35.69,139.70],13);
+ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}',{maxZoom:16,attribution:'Tiles © Esri'}).addTo(map);
+ const m=document.getElementById('m'),chips=document.getElementById('chips');
+ const intro=$('div','intro');intro.append($('p','',d.intro));
+ const lg=$('div','legend');
+ lg.innerHTML='<span><i class="pin shop" style="display:inline-grid;width:16px;height:16px"></i>Shop</span><span><i class="pin shop lv" style="display:inline-grid;width:16px;height:16px"></i>Shop with Louis Vuitton on its site</span><span><i class="pin rest" style="display:inline-grid;width:14px;height:14px;margin:0 2px"></i>Rest place</span>';
+ intro.append(lg);m.append(intro);
+ const items=[],areaEls={},bounds={};
+ d.areas.forEach(a=>{
+  const sec=$('section','area');sec.id=a.id;sec.style.setProperty('--c',a.color);areaEls[a.id]=sec;
+  const ah=$('div','ah');ah.append($('div','n',a.num));
+  const hb=$('div');hb.append($('h2','',a.name),$('span','train',a.from_shinjuku),$('p','',a.why));ah.append(hb);sec.append(ah);
+  sec.append(Object.assign($('div','plan'),{}));const pl=sec.lastChild;pl.append($('b','','Plan'),a.plan);
+  const pts=[];
+  a.places.forEach((p,i)=>{
+   const isR=p.type==='rest',num=i+1;
+   const c=$('article','card '+(isR?'rest':'shop'));
+   const tg=$('div','tags');
+   if(isR){tg.append($('span','tag r','Rest'));if(p.kind)tg.append($('span','tag q',p.kind))}
+   else{tg.append($('span','tag','Shop'));if(p.lv)tg.append($('span','tag lv','Louis Vuitton on its site'))}
+   c.append(tg,$('h3','',p.name),$('p','',p.text),$('p','addr',p.address));
+   const b=$('div','btns');
+   const g=$('a','btn','Open in Google Maps');g.href=p.map;g.target='_blank';g.rel='noopener';
+   const s=$('a','btn sec','Official page');s.href=p.source;s.target='_blank';s.rel='noopener';
+   [g,s].forEach(x=>x.addEventListener('click',e=>e.stopPropagation()));
+   b.append(g,s);c.append(b);sec.append(c);
+   const ic=L.divIcon({className:'',iconSize:[26,26],iconAnchor:[13,13],html:`<div class="pin ${isR?'rest':'shop'}${p.lv?' lv':''}"><span>${isR?'':(p.lv?'LV':'')}</span></div>`});
+   const mk=L.marker([p.lat,p.lng],{icon:ic,title:p.name}).addTo(map);
+   const it={p,c,mk,area:a.id,type:isR?'rest':'shop'};items.push(it);pts.push([p.lat,p.lng]);
+   mk.on('click',()=>{sel(it);c.scrollIntoView({behavior:'smooth',block:'start'})});
+   c.addEventListener('click',()=>{sel(it);map.flyTo([p.lat,p.lng],Math.max(map.getZoom(),15),{duration:.6});top_.scrollIntoView({behavior:'smooth'})});
+  });
+  bounds[a.id]=L.latLngBounds(pts);
+  if(a.id==='shinjuku'){ // hotel-area highlight
+   const bb=bounds[a.id],ctr=bb.getCenter();
+   L.circle(ctr,{radius:Math.max(450,ctr.distanceTo(bb.getNorthEast())*1.15),color:'#d9482b',weight:2,dashArray:'6 6',fillColor:'#d9482b',fillOpacity:.08}).addTo(map);
+   L.marker([bb.getNorth(),ctr.lng],{interactive:false,icon:L.divIcon({className:'',iconSize:[0,0],html:'<span class="hotel" style="position:absolute;transform:translate(-50%,-26px)">Your Shinjuku base</span>'})}).addTo(map);
+  }
+  if(a.photo){const f=$('p','ph');f.append(a.photo.caption+' Photo: ');const l=$('a','',a.photo.author);l.href=a.photo.page;l.target='_blank';l.rel='noopener';f.append(l,', '+a.photo.license+'.');sec.append(f)}
+  m.append(sec);
+ });
+ // tips
+ const tp=$('section','tips');tp.append($('h2','','Good to know'));
+ [['lv','Checking Louis Vuitton'],['general','Shopping tips']].forEach(([k,h])=>{if(!d.tips[k])return;tp.append($('h3','',h));const u=$('ul');d.tips[k].forEach(x=>u.append($('li','',x)));tp.append(u)});
+ m.append(tp);
+ // filters
+ let fa='all',ft='all';
+ const chipDefs=[['t','all','All'],['t','shop','Shops'],['t','rest','Rest'],['sep'],['a','all','Everywhere'],...d.areas.map(a=>['a',a.id,a.name])];
+ const btns=[];
+ chipDefs.forEach(([k,v,l])=>{
+  if(k==='sep'){chips.append($('span','sep'));return}
+  const b=$('button','',l);b.dataset.k=k;b.dataset.v=v;btns.push(b);chips.append(b);
+  b.onclick=()=>{ if(k==='t')ft=v;else fa=v; apply(true,k==='a'&&v!=='all'?v:null)};
+ });
+ function apply(fit,jump){
+  btns.forEach(b=>b.classList.toggle('on',b.dataset.k==='t'?b.dataset.v===ft:b.dataset.v===fa));
+  const vis=[];
+  items.forEach(it=>{const ok=(ft==='all'||it.type===ft)&&(fa==='all'||it.area===fa);it.c.classList.toggle('hide',!ok);
+   if(ok){it.mk.addTo(map);vis.push(it.p)}else it.mk.remove()});
+  d.areas.forEach(a=>areaEls[a.id].classList.toggle('hide',fa!=='all'&&fa!==a.id));
+  if(fit&&vis.length)map.flyToBounds(L.latLngBounds(vis.map(p=>[p.lat,p.lng])),{padding:[40,40],maxZoom:15,duration:.6});
+  setTimeout(()=>{map.invalidateSize();setH()},50);
+  if(jump)setTimeout(()=>areaEls[jump].scrollIntoView({behavior:'smooth'}),80);
+ }
+ let cur;
+ function sel(it){
+  if(cur){cur.c.classList.remove('hl');const e=cur.mk.getElement();e&&e.firstChild.classList.remove('on')}
+  cur=it;it.c.classList.add('hl');const e=it.mk.getElement();e&&e.firstChild.classList.add('on');
+  map.panTo([it.p.lat,it.p.lng]);
+ }
+ apply(false);
+ const all=items.map(i=>[i.p.lat,i.p.lng]);map.fitBounds(all,{padding:[30,30]});
+ addEventListener('resize',()=>{map.invalidateSize();setH()});
+ setTimeout(()=>{map.invalidateSize();setH()},300);
+}
+</script></body></html>

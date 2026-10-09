@@ -1,0 +1,78 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Tokyo Preloved Bags</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f4f2;--card:#fff;--ink:#141414;--mute:#6b6b68;--line:#e3e3df;--tan:#b08a5a;--tan-d:#7d5c32;--tan-bg:#f3ebdf;color-scheme:light}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:500 16px/1.55 Manrope,system-ui,sans-serif;overflow-x:hidden;padding-bottom:40px}
+.w{max-width:640px;margin:0 auto;padding:0 16px}
+header{padding:28px 0 8px}
+.k{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--tan-d);margin:0 0 10px}
+h1{font-size:clamp(26px,8vw,38px);line-height:1.1;letter-spacing:-.03em;font-weight:800;margin:0 0 12px}
+.intro{margin:0;color:#3a3a38;font-size:15.5px}
+.bar{position:sticky;top:0;z-index:5;background:rgba(244,244,242,.92);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);padding:10px 0 8px;border-bottom:1px solid var(--line)}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);background:#e6e6e2;border-radius:14px;padding:4px;gap:2px}
+.seg button{font:700 15px Manrope,sans-serif;border:0;background:none;color:var(--mute);padding:11px 4px;border-radius:11px;min-height:44px;cursor:pointer}
+.seg button[aria-selected=true]{background:#fff;color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.14)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:10px 0 2px;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}
+.chips button{flex:none;font:700 14px Manrope,sans-serif;border:1.5px solid var(--line);background:#fff;color:var(--ink);padding:9px 15px;border-radius:999px;min-height:40px;cursor:pointer}
+.chips button[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.area{margin:22px 0 0}
+.ah{position:relative;border-radius:22px;overflow:hidden;color:#fff;min-height:150px;background:#333;display:flex;align-items:flex-end}
+.ah img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ah:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05) 20%,rgba(0,0,0,.72))}
+.ah div{position:relative;z-index:1;padding:16px 18px;z-index:2}
+.ah h2{margin:0;font-size:24px;font-weight:800;letter-spacing:-.02em;line-height:1.15}
+.train{display:inline-block;margin-top:8px;background:var(--tan);color:#fff;font-size:13.5px;font-weight:700;padding:6px 11px;border-radius:10px;line-height:1.35}
+.why{margin:12px 2px 4px;color:#3a3a38;font-size:15px}
+.plan{margin:6px 0 12px;background:var(--tan-bg);color:#4a361c;border-radius:14px;padding:11px 14px;font-size:14.5px}
+.card{background:var(--card);border-radius:22px;padding:18px;margin:12px 0;box-shadow:0 1px 2px rgba(0,0,0,.05),0 6px 20px rgba(0,0,0,.05)}
+.tag{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.04em;padding:4px 10px;border-radius:999px;margin:0 6px 8px 0}
+.lv{background:var(--ink);color:#e8cfa3}.kind{background:var(--tan-bg);color:var(--tan-d)}
+.card h3{margin:0 0 6px;font-size:19px;line-height:1.25;letter-spacing:-.01em;font-weight:800}
+.card p{margin:0 0 8px;color:#3a3a38;font-size:15px}
+.addr{color:var(--mute)!important;font-size:13.5px!important}
+.go{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:12px;background:var(--tan);color:#fff;text-decoration:none;font-weight:800;font-size:16px;min-height:52px;border-radius:16px}
+.go:active{background:var(--tan-d)}
+.src{display:block;text-align:center;margin-top:10px;font-size:13px;color:var(--mute)}
+.tips{margin:20px 0}.tips h2{font-size:20px;margin:22px 2px 8px;font-weight:800;letter-spacing:-.02em}
+.tip{background:#fff;border-radius:18px;padding:14px 16px;margin:8px 0;display:flex;gap:12px;font-size:15px}
+.tip b{flex:none;width:26px;height:26px;border-radius:50%;background:var(--tan-bg);color:var(--tan-d);display:grid;place-items:center;font-size:13px}
+.tip.lvt b{background:var(--ink);color:#e8cfa3}
+footer{margin-top:30px;font-size:12.5px;color:var(--mute)}footer a{color:var(--mute)}footer p{margin:6px 0}
+.err{padding:30px 0;color:#a33}
+:focus-visible{outline:3px solid var(--tan);outline-offset:2px}
+</style></head><body>
+<div class="w"><header><p class="k" id="from"></p><h1 id="t"></h1><p class="intro" id="intro"></p></header></div>
+<div class="bar"><div class="w">
+<div class="seg" role="tablist"><button role="tab" data-t="shop">Shop LV</button><button role="tab" data-t="rest">Rest</button><button role="tab" data-t="tips">Tips</button></div>
+<div class="chips" id="chips"></div></div></div>
+<main class="w" id="main"></main>
+<footer class="w" id="foot"></footer>
+<script>
+const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let D,tab='shop',area='all';
+fetch('../content.json').then(r=>r.json()).then(d=>{D=d;
+ $('#from').textContent='From '+d.from+' · '+d.updated;$('#t').textContent=d.title;$('#intro').textContent=d.intro;document.title=d.title;
+ $('#chips').innerHTML=[['all','All areas'],...d.areas.map(a=>[a.id,a.name])].map(([i,n])=>`<button data-a="${esc(i)}">${esc(n)}</button>`).join('');
+ document.addEventListener('click',e=>{const t=e.target.closest('[data-t]'),a=e.target.closest('[data-a]');
+  if(t){tab=t.dataset.t;render();scrollTo(0,0)}if(a){area=a.dataset.a;render()}});
+ const cr=Object.values(d.photos).map(p=>`<p>Photo: “${esc(p.caption)}” ${esc(p.author)}, <a href="${esc(p.page)}" rel="noopener">${esc(p.license)}</a></p>`).join('');
+ $('#foot').innerHTML=cr+'<p>Updated '+esc(d.updated)+'. Map links open Google Maps.</p>';
+ render();
+}).catch(e=>{$('#main').innerHTML='<p class="err">Could not load the guide. Please refresh.</p>'});
+function card(p){return `<article class="card">${p.lv?'<span class="tag lv">LOUIS VUITTON LISTED</span>':''}${p.kind?`<span class="tag kind">${esc(p.kind)}</span>`:''}
+<h3>${esc(p.name)}</h3><p>${esc(p.text)}</p><p class="addr">${esc(p.address)}</p>
+<a class="go" href="${esc(p.map)}" target="_blank" rel="noopener">Open in Maps ↗</a>${p.source?`<a class="src" href="${esc(p.source)}" target="_blank" rel="noopener">Official page</a>`:''}</article>`}
+function render(){
+ document.querySelectorAll('[data-t]').forEach(b=>b.setAttribute('aria-selected',b.dataset.t===tab));
+ document.querySelectorAll('[data-a]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.a===area));
+ $('#chips').style.display=tab==='tips'?'none':'flex';
+ if(tab==='tips'){const t=D.tips;$('#main').innerHTML='<div class="tips"><h2>Louis Vuitton checks</h2>'+t.lv.map((x,i)=>`<div class="tip lvt"><b>${i+1}</b><span>${esc(x)}</span></div>`).join('')+'<h2>Good to know</h2>'+t.general.map((x,i)=>`<div class="tip"><b>${i+1}</b><span>${esc(x)}</span></div>`).join('')+'</div>';return}
+ $('#main').innerHTML=D.areas.filter(a=>area==='all'||a.id===area).map(a=>{
+  const ps=a.places.filter(p=>p.type===tab).sort((x,y)=>(y.lv?1:0)-(x.lv?1:0));
+  if(!ps.length)return'';
+  return `<section class="area"><div class="ah"><img src="${esc(a.photo.url)}" alt="${esc(a.photo.caption)}" loading="lazy"><div><h2>${esc(a.name)}</h2><span class="train">🚆 ${esc(a.from_shinjuku)}</span></div></div>
+  <p class="why">${esc(a.why)}</p>${tab==='shop'?`<p class="plan">${esc(a.plan)}</p>`:''}${ps.map(card).join('')}</section>`}).join('')||'<p class="err">Nothing here for this area.</p>';
+}
+</script></body></html>
