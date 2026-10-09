@@ -30,7 +30,13 @@
      "map": "https://www.google.com/maps/search/?api=1&query=KOMEHYO+SHINJUKU+3-19-4+Shinjuku+Tokyo",
      "lat": 35.6911,
      "lng": 139.7058,
-     "source": "https://komehyo.jp/kaitori/shop/komehyo-shinjuku-women-2"
+     "source": "https://komehyo.jp/kaitori/shop/komehyo-shinjuku-women-2",
+     "photo": {
+      "url": "https://a.mktgcdn.com/p/enf47k4cQWd6859tgB_o4e7kSBBslLjGy2GfcyQsV7k/1170x853.jpg",
+      "credit": "Photo: KOMEHYO",
+      "credit_url": "https://komehyo.jp/kaitori/shop/shinjuku",
+      "license": "official site"
+     }
     },
     {
      "name": "KOMEHYO Shinjuku Women",
@@ -41,7 +47,13 @@
      "map": "https://www.google.com/maps/search/?api=1&query=KOMEHYO+SHINJUKU+WOMEN+3-19-2+Shinjuku+Tokyo",
      "lat": 35.6909,
      "lng": 139.7061,
-     "source": "https://komehyo.jp/kaitori/shop/komehyo-shinjuku-women-2"
+     "source": "https://komehyo.jp/kaitori/shop/komehyo-shinjuku-women-2",
+     "photo": {
+      "url": "https://a.mktgcdn.com/p/1_k_aI6UhxjNGtlcifwSsb1bwN0jsUzJ6ym9F9aEa2U/2700x1801.jpg",
+      "credit": "Photo: KOMEHYO",
+      "credit_url": "https://komehyo.jp/kaitori/shop/komehyo-shinjuku-women-2",
+      "license": "official site"
+     }
     },
     {
      "name": "BRAND OFF Shinjuku",
@@ -52,7 +64,13 @@
      "map": "https://www.google.com/maps/search/?api=1&query=BRAND+OFF+Shinjuku+3-5-3+Shinjuku+Tokyo",
      "lat": 35.6912,
      "lng": 139.703,
-     "source": "https://www.brandoff.co.jp/shop_list/shop.php?shop=012_shinjuku"
+     "source": "https://www.brandoff.co.jp/shop_list/shop.php?shop=012_shinjuku",
+     "photo": {
+      "url": "https://www.brandoff.co.jp/wordpress/wp-content/uploads/2025/08/brandoff-shop-shinjuku-outlook-right.jpg",
+      "credit": "Photo: BRAND OFF",
+      "credit_url": "https://www.brandoff.co.jp/shop_list/shop.php?shop=012_shinjuku",
+      "license": "official site"
+     }
     },
     {
      "name": "Daikokuya Shinjuku Honten",
@@ -63,7 +81,13 @@
      "map": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%BB%92%E5%B1%8B+%E6%96%B0%E5%AE%BF%E6%9C%AC%E5%BA%97+%E6%AD%8C%E8%88%9E%E4%BC%8E%E7%94%BA1-5-3",
      "lat": 35.695,
      "lng": 139.7027,
-     "source": "https://www.daikokuya78.com/shops.html"
+     "source": "https://www.daikokuya78.com/shops.html",
+     "photo": {
+      "url": "https://www.daikokuya78.com/store/shinjuku.jpeg",
+      "credit": "Photo: Daikokuya",
+      "credit_url": "https://www.daikokuya78.com/shops.html",
+      "license": "official site"
+     }
     },
     {
      "name": "Daikokuya Shinjuku Nibankan",
@@ -74,7 +98,13 @@
      "map": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%BB%92%E5%B1%8B+%E6%96%B0%E5%AE%BF2%E7%95%AA%E9%A4%A8+%E6%96%B0%E5%AE%BF3-17-13",
      "lat": 35.691,
      "lng": 139.7055,
-     "source": "https://www.daikokuya78.com/shops.html"
+     "source": "https://www.daikokuya78.com/shops.html",
+     "photo": {
+      "url": "https://www.daikokuya78.com/store/shin2.jpeg",
+      "credit": "Photo: Daikokuya",
+      "credit_url": "https://www.daikokuya78.com/shops.html",
+      "license": "official site"
+     }
     },
     {
      "name": "Re.Ra.Ku Shinjuku",
@@ -85,7 +115,13 @@
      "map": "https://www.google.com/maps/search/?api=1&query=Re.Ra.Ku+Shinjuku+3-3-3+Shinjuku+Tokyo",
      "lat": 35.6908,
      "lng": 139.704,
-     "source": "https://reraku.jp/studio/shinjuku/"
+     "source": "https://reraku.jp/studio/shinjuku/",
+     "photo": {
+      "url": "https://imagedelivery.net/NhEg4ltVTkaN7TCIuD8O5g/0931c483-b048-4348-6ca6-e3a58f9c1d00/middle",
+      "credit": "Photo: Re.Ra.Ku",
+      "credit_url": "https://reraku.jp/studio/shinjuku/",
+      "license": "official site"
+     }
     },
     {
      "name": "Thermae-Yu Shinjuku",
@@ -96,7 +132,13 @@
      "map": "https://www.google.com/maps/search/?api=1&query=Thermae-yu+Shinjuku+1-1-2+Kabukicho+Tokyo",
      "lat": 35.6959,
      "lng": 139.7025,
-     "source": "https://thermae-yu.jp/"
+     "source": "https://thermae-yu.jp/",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Thermae-yu_Shinjuku.jpg/960px-Thermae-yu_Shinjuku.jpg",
+      "credit": "Photo: 妖精書士 / Wikimedia Commons",
+      "credit_url": "https://commons.wikimedia.org/wiki/File:Thermae-yu_Shinjuku.jpg",
+      "license": "CC0"
+     }
     },
     {
      "name": "Mannenyu (Okubo)",
@@ -107,7 +149,13 @@
      "map": "https://www.google.com/maps/search/?api=1&query=%E4%B8%87%E5%B9%B4%E6%B9%AF+%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%A4%A7%E4%B9%85%E4%BF%9D1-15-17",
      "lat": 35.7019,
      "lng": 139.7013,
-     "source": "https://mannenyu.jp/"
+     "source": "https://mannenyu.jp/",
+     "photo": {
+      "url": "https://mannenyu.jp/wp-content/uploads/2019/01/top-mannen-0119-min.jpg",
+      "credit": "Photo: Mannenyu",
+      "credit_url": "https://mannenyu.jp/",
+      "license": "official site"
+     }
     },
     {
      "name": "Joule Spa & Wellness, Hyatt Regency Tokyo",
@@ -118,7 +166,13 @@
      "map": "https://www.google.com/maps/search/?api=1&query=Hyatt+Regency+Tokyo+2-7-2+Nishi-Shinjuku",
      "lat": 35.6925,
      "lng": 139.6925,
-     "source": "https://hyattregencytokyo.com/en/joule/"
+     "source": "https://hyattregencytokyo.com/en/joule/",
+     "photo": {
+      "url": "https://hyattregencytokyo.com/hyatt_wp/wp-content/uploads/2026/03/spa_top-scaled.jpg",
+      "credit": "Photo: Hyatt Regency Tokyo",
+      "credit_url": "https://hyattregencytokyo.com/en/joule/",
+      "license": "official site"
+     }
     },
     {
      "name": "TOKYO SHINJUKU SPA.",
@@ -129,7 +183,13 @@
      "map": "https://www.google.com/maps/search/?api=1&query=TOKYO+SHINJUKU+SPA+7-5-11+Nishi-Shinjuku+Tokyo",
      "lat": 35.6945,
      "lng": 139.6955,
-     "source": "https://beauty.hotpepper.jp/kr/slnH000688806/"
+     "source": "https://beauty.hotpepper.jp/kr/slnH000688806/",
+     "photo": {
+      "url": "https://imgbp.hotp.jp/CSP/IMG_SRC_K/76/69/C042057669/C042057669.jpg?impolicy=HPB_policy_default&w=600&h=450",
+      "credit": "Photo: Hot Pepper Beauty",
+      "credit_url": "https://beauty.hotpepper.jp/kr/slnH000688806/",
+      "license": "official site"
+     }
     },
     {
      "name": "Kannam Beauty Shin-Okubo",
@@ -142,7 +202,20 @@
      "lng": 139.708,
      "source": "https://beauty.hotpepper.jp/kr/slnH000821487/"
     }
-   ]
+   ],
+   "model_route": {
+    "url": "https://www.google.com/maps/dir/?api=1&origin=Shinjuku+Station+Tokyo&destination=Thermae-Yu+Shinjuku%2C+Shinjuku+Tokyo&waypoints=BRAND+OFF+Shinjuku%2C+Shinjuku+Tokyo%7CDaikokuya+Shinjuku+Nibankan%2C+Shinjuku+Tokyo%7CKOMEHYO+Shinjuku%2C+Shinjuku+Tokyo%7CKOMEHYO+Shinjuku+Women%2C+Shinjuku+Tokyo%7CDaikokuya+Shinjuku+Honten%2C+Shinjuku+Tokyo&travelmode=walking",
+    "stops": [
+     "Shinjuku Station",
+     "BRAND OFF Shinjuku",
+     "Daikokuya Shinjuku Nibankan",
+     "KOMEHYO Shinjuku",
+     "KOMEHYO Shinjuku Women",
+     "Daikokuya Shinjuku Honten",
+     "Thermae-Yu Shinjuku"
+    ],
+    "note": "about 14 min walking between shops (plus a short walk from the station and on to the spa)"
+   }
   },
   {
    "id": "harajuku",
@@ -170,7 +243,13 @@
      "map": "https://www.google.com/maps/search/?api=1&query=RAGTAG+Harajuku+5-17-9+Jingumae+Tokyo",
      "lat": 35.669,
      "lng": 139.706,
-     "source": "https://www.ragtag.jp/real-store/0000000001"
+     "source": "https://www.ragtag.jp/real-store/0000000001",
+     "photo": {
+      "url": "https://www.ragtag.jp/res/p/shop/img/0000000001/slide1.jpg",
+      "credit": "Photo: RAGTAG",
+      "credit_url": "https://www.ragtag.jp/real-store/0000000001",
+      "license": "official site"
+     }
     },
     {
      "name": "KOMEHYO VINTAGE TOKYO",
@@ -181,9 +260,23 @@
      "map": "https://www.google.com/maps/search/?api=1&query=KOMEHYO+VINTAGE+TOKYO+5-1-16+Jingumae+Tokyo",
      "lat": 35.6655,
      "lng": 139.712,
-     "source": "https://komehyo.jp/kaitori/shop/komehyo_vintage_tokyo"
+     "source": "https://komehyo.jp/kaitori/shop/komehyo_vintage_tokyo",
+     "photo": {
+      "url": "https://a.mktgcdn.com/p/oXegfVolI39LoJfYjQ84fEsUIEk7RzxHSebaUAtQxaI/750x563.jpg",
+      "credit": "Photo: KOMEHYO",
+      "credit_url": "https://komehyo.jp/kaitori/shop/komehyo_vintage_tokyo",
+      "license": "official site"
+     }
     }
-   ]
+   ],
+   "model_route": {
+    "url": "https://www.google.com/maps/dir/?api=1&origin=KOMEHYO+VINTAGE+TOKYO%2C+Harajuku+Tokyo&destination=RAGTAG+Harajuku%2C+Harajuku+Tokyo&travelmode=walking",
+    "stops": [
+     "KOMEHYO VINTAGE TOKYO",
+     "RAGTAG Harajuku"
+    ],
+    "note": "about 11 min walking between shops (no rest place listed in this area yet)"
+   }
   },
   {
    "id": "ginza",
@@ -211,7 +304,13 @@
      "map": "https://www.google.com/maps/search/?api=1&query=KOMEHYO+GINZA+2-7-18+Ginza+Tokyo",
      "lat": 35.6738,
      "lng": 139.765,
-     "source": "https://komehyo.jp/kaitori/shop/ginza"
+     "source": "https://komehyo.jp/kaitori/shop/ginza",
+     "photo": {
+      "url": "img/komehyo-ginza.jpg",
+      "credit": "Photo: KOMEHYO",
+      "credit_url": "https://komehyo.jp/kaitori/shop/ginza",
+      "license": "official site"
+     }
     },
     {
      "name": "Daikokuya Ginza",
@@ -222,7 +321,13 @@
      "map": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%BB%92%E5%B1%8B+%E9%8A%80%E5%BA%A7%E5%BA%97+%E9%8A%80%E5%BA%A72-2-17",
      "lat": 35.6745,
      "lng": 139.768,
-     "source": "https://www.daikokuya78.com/shops.html"
+     "source": "https://www.daikokuya78.com/shops.html",
+     "photo": {
+      "url": "img/daikokuya-ginza.jpg",
+      "credit": "Photo: Daikokuya",
+      "credit_url": "https://www.daikokuya78.com/shops.html",
+      "license": "official site"
+     }
     },
     {
      "name": "BRAND OFF Ginza Honten",
@@ -233,39 +338,24 @@
      "map": "https://www.google.com/maps/search/?api=1&query=BRAND+OFF+Ginza+5-5-9+Ginza+Tokyo",
      "lat": 35.671,
      "lng": 139.765,
-     "source": "https://www.brandoff.co.jp/shop_list/shop.php?shop=010_ginza_head"
+     "source": "https://www.brandoff.co.jp/shop_list/shop.php?shop=010_ginza_head",
+     "photo": {
+      "url": "https://www.brandoff.co.jp/wordpress/wp-content/uploads/2024/09/shop_ginza-honten-hermes2.jpg",
+      "credit": "Photo: BRAND OFF",
+      "credit_url": "https://www.brandoff.co.jp/shop_list/shop.php?shop=010_ginza_head",
+      "license": "official site"
+     }
     }
-   ]
-  },
-  {
-   "id": "daikanyama",
-   "name": "Daikanyama",
-   "num": "04",
-   "color": "#4f6b3a",
-   "from_shinjuku": "About 20 minutes: JR Yamanote Line to Ebisu (about 7 minutes), then a walk of about 10 minutes. Times are approximate.",
-   "why": "A quiet, low-rise neighborhood of small boutiques. It is a calmer trip than the big stores, with one pre-owned designer bag shop to see.",
-   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Walk_in_Daikanyama.jpg/960px-Walk_in_Daikanyama.jpg",
-    "caption": "A street walk in Daikanyama.",
-    "author": "Syced",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Walk_in_Daikanyama.jpg",
-    "key": "daikanyama"
-   },
-   "plan": "Short visit: go to Hedy around 11:00, then walk the side streets for a cafe stop before heading back.",
-   "places": [
-    {
-     "name": "Hedy Daikanyama",
-     "type": "shop",
-     "lv": true,
-     "text": "A small shop for pre-owned designer bags. Its official site has a Louis Vuitton collection page; ask the staff what is in the store today. Hours 11:00-20:00.",
-     "address": "26-8 Sarugakucho, Shibuya-ku",
-     "map": "https://www.google.com/maps/search/?api=1&query=Hedy+Daikanyama+26-8+Sarugakucho+Shibuya+Tokyo",
-     "lat": 35.6487,
-     "lng": 139.7004,
-     "source": "https://www.hedy.jp/pages/find-a-store"
-    }
-   ]
+   ],
+   "model_route": {
+    "url": "https://www.google.com/maps/dir/?api=1&origin=BRAND+OFF+Ginza+Honten%2C+Ginza+Tokyo&destination=Daikokuya+Ginza%2C+Ginza+Tokyo&waypoints=KOMEHYO+Ginza%2C+Ginza+Tokyo&travelmode=walking",
+    "stops": [
+     "BRAND OFF Ginza Honten",
+     "KOMEHYO Ginza",
+     "Daikokuya Ginza"
+    ],
+    "note": "about 10 min walking between shops (no rest place listed in this area yet)"
+   }
   }
  ],
  "tips": {
@@ -302,14 +392,7 @@
    "author": "Soramimi",
    "license": "CC BY-SA 4.0",
    "page": "https://commons.wikimedia.org/wiki/File:Chuo-dori_Street_from_Ginza_4-Chome_Crossroads_(south).JPG"
-  },
-  "daikanyama": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Walk_in_Daikanyama.jpg/960px-Walk_in_Daikanyama.jpg",
-   "caption": "A street walk in Daikanyama.",
-   "author": "Syced",
-   "license": "CC0",
-   "page": "https://commons.wikimedia.org/wiki/File:Walk_in_Daikanyama.jpg"
   }
  },
- "notes": "Dropped: Nakano Broadway, Daikanyama/Ebisu, Vintage Qoo, Amore, Raffine, Shin-Okubo Korean body-scrub spas, Thai massage: no official page confirmed. Map coordinates are approximate (building level); the Google Maps links are the reference. Added 2026-10-09: Daikanyama (Hedy) and two Shinjuku rest places (TOKYO SHINJUKU SPA., Kannam Beauty). Still not added: Nakano Broadway (no bag shop confirmed), Ebisu shops, Raffine Shinjuku, a Shin-Okubo akasuri spa."
+ "notes": "Dropped: Nakano Broadway, Daikanyama/Ebisu, Vintage Qoo, Amore, Raffine, Shin-Okubo Korean body-scrub spas, Thai massage: no official page confirmed. Map coordinates are approximate (building level); the Google Maps links are the reference. Added 2026-10-09: two Shinjuku rest places (TOKYO SHINJUKU SPA., Kannam Beauty). Still not added: Nakano Broadway (no bag shop confirmed), Ebisu shops, Raffine Shinjuku, a Shin-Okubo akasuri spa. Daikanyama (Hedy) was removed: too few spots."
 }
